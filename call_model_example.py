@@ -1,43 +1,4 @@
-import os, re
-from dotenv import load_dotenv
-load_dotenv()
-
-from openai import OpenAI
-import ollama
-from zhconv_rs import zhconv
-
-from config import BACK_END_MODEL, AI_MODEL, OLLAMA_URL
-
-openai_client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-
-# 設定 統一system prompt，並動態記錄版本資訊
-#import system_prompt
-#global prompt_choice, prompt_version
-#prompt_function = system_prompt.system_prompt  # 取得 system_prompt 函式
-#prompt_choice = prompt_function()  # 執行函式以取得提示內容
-#prompt_version = f"{prompt_function.__module__}.{prompt_function.__name__}"
-
-
-def ai_response(conversation_history, max_tokens=1000):
-    if BACK_END_MODEL == 'openai':
-        response = openai_client.chat.completions.create(
-            model=AI_MODEL, 
-            messages=conversation_history
-        )
-        print("model = openai")
-        assistant_reply = response.choices[0].message.content
-    elif BACK_END_MODEL == 'ollama':
-        response = ollama.Client(host=OLLAMA_URL).chat(
-            model=AI_MODEL, 
-            messages=conversation_history
-        )
-        print("model = ollama "+str(AI_MODEL))
-        assistant_reply = response['message']['content'].strip()
-        if AI_MODEL.startswith("deepseek"):
-            assistant_reply = re.sub(r'<think>(.*)</think>', '', assistant_reply, flags=re.DOTALL).strip()
-    assistant_reply = zhconv(assistant_reply, "zh-tw")
-    return assistant_reply
-
+ㄍㄍ
 
 def dialogue_summary(messages, summary_token_length=1000):
     summary_prompt = [

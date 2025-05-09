@@ -1,0 +1,1077 @@
+[Unknown] 我希望是...
+[Speaker_01] 資料不會外洩，不需要上傳到那些大公司，用手機就可以了，用手機就可以了，手機自動AI摘要的，我手機這件就有了，我們會做的比那個更好
+[Speaker_03] 主要是手機的那個會傳給他們，手機也是會傳給他們
+[Speaker_05] 我覺得...
+[Unknown] 前面...
+[Speaker_03] 前面那些該靠Phone什麼的，這些有的沒的應該...，應該不用特別提了吧，重新講起了
+[Speaker_04] 那...，我前面只是要跟我們那些，那些informatics的那些同學，跟老師解釋這是什麼鬼
+[Speaker_03] 因為他們...，我們那邊實驗室，我們那邊實驗室很多...，很多人跑的都是genomics，他們就會覺得說，我們進去就有資料了嗎，然後我就得跟他們花時間解釋說，沒有這個東西是dynamic，然後他...，他一個位置上面是有很多該靠Phone，我們跑出來的資料就是一坨，不能像他們一樣說，我很明確的告訴你sequence是什麼，所以你沒有辦法用，他們的那個approach，直接套用在該可能的data上面，就要跟他們解釋這些事情，所以就要跟他們講說糖怎麼來
+[Unknown] 怎麼做
+[Speaker_03] 需要那些該靠CTO transferation，你家那邊都是用什麼
+[Speaker_06] 用英文還是用日文
+[Speaker_03] 英文，因為實驗室除了老闆是日本人之外，再往下的都不是日本人，小老闆是韓國人，然後助理教授是，Mexican，對，所以實驗室現在很歡樂，我們最近還來一個，住在倫敦附近的吧，英國人，但他又會講中文，他老婆是中國人東北人
+[Speaker_05] 對
+[Unknown] 然後我就要花時間跟他們解釋一下
+[Speaker_03] 有哪些方法可以看到該可能，像快要EM可以，嘗試去解結構嘛，然後我們，我們要讓糖可以被看到，我們可以做labeling，或做一些chemical treatments，然後之後有一些treatment，也可以方便我們之後自補一下，看那個，看那個突破嘛，然後跟他們講一下，可以稍微辨認一下EBITO，然後我們有，可以切這些，切一些之後也可以，丟進MathSpec，然後再來就要跟他們說，這個東西，靠像素的所以沒有template，然後他們看完之後就說，哇好複雜啊這怎麼做啊
+[Unknown] 然後就跟他們show一下我們流程
+[Speaker_03] 怎麼拿到data，怎麼從，該，我聽開始我現在一路pureification，然後做一做做到最後上集，然後拿到這種圖
+[Unknown] 對然後看到這邊他們就開始
+[Speaker_03] 打瞌睡了，後面聽不下去了，所以就跟他們說就是勸起來這邊，沒有precise的reference super sequence，所以我們是分析完之後，才知道嘛然後加上不少，概括biology的knowledge，因為我們現在也沒有認真，在把整個糖結構一顆一顆去算
+[Unknown] 對然後這邊
+[Speaker_03] 我跟他們說我們糖現在，的一些限制，就是，首先就是剛剛說Foam的問題嘛，所以sequence可能很複雜，你這一批sample跟下一批sample，可能slightly不太一樣，就算它的來源都是一樣的，對啊手巧不巧也會影響到你那個，訊號的結果嘛，所以
+[Unknown] 怎麼講
+[Speaker_03] 你拿到的資料不會是那麼的consistent，它可能會是有一定程度的差異的，那那個差異是怎麼樣，要自己再去判讀，就是判讀它到底是sample，本身不一樣了還是，單純就是這個量少量多之類的差異，對
+[Unknown] 然後，然後這一切其實都可以
+[Speaker_03] 我認為還是可以歸因到我們，拿最後分離出來的糖量，其實就很少那一期去打下來，我們也是，訊號本來就沒有說非常非常好，東西又不純，我們的biological sample都是混合物啊，mixture的話你不能，期待每個東西都給你resolve的，巧克力量量
+[Unknown] 嗯
+[Speaker_03] 所以就home meditation靈敏，然後當然就是因爲我們很貴，所以不是每個人都有，然後這邊就作業，這邊就作業表哥跟他們說
+[Unknown] 就是D2LA嘛
+[Speaker_03] 它沒有它沒有那個，NEO NEO NEO客袋，然後它們linkage也是只有，FORCEWALL再來一次放，PAPETIDE的話是20個AH更多啦，有那個non-common的，AMINO AC嘛
+[Unknown] 那它們的
+[Speaker_03] 它們的linkage也是固定是PAPETIDE放的，有沒有修飾那是一回事，再來可是到Gryphon的話我們，貓中鯊塊就好多種，就長得差不多，對它們來說差不多啦，對我們來說差很多，然後那個Gryphon CD放的也有差，對不對linkage不一樣
+[Unknown] 應該是我塗就是糊的了，應該是我塗就是糊的了，應該是我塗就是糊的了，應該是我塗就是糊的了
+[Speaker_03] 應該是我塗就是糊的了
+[Unknown] 應該是我塗就是糊的了，對啊，然後從後面開始就是比較
+[Speaker_03] 然後從後面開始就是比較，比較偏現在在做的東西，就是講一下說爲什麼，我認為唐的Machine Learning，做不太出來，就綜合了一下我認為的幾個點，就綜合了一下我認為的幾個點，我把雷射筆拿出來
+[Unknown] 我把雷射筆拿出來，就是首先就是
+[Speaker_03] 他們有問我說，你爲什麼不弄那個，那個Thioretical，那個Fragmentation Library，那個Protein的話他們有，可是我就想說，我就跟他們說你現在好了，我現在不同，不同的Derivatization，Pattern也不一樣，因為只將變了嘛，可能你本身，你那些Settings Energy怎麼樣，你是會影響到Pattern，那你這樣子的情況下，我還要花時間去搞一個Library，然後最後可能拿去跟真實是要比，然後最後可能拿去跟真實是要比，又長得不像，那長得不像你要怎麼做出一個工具，也算法說這兩個東西是同一個，看不出來啊，我們也沒有Standard
+[Speaker_06] 沒有那麼多Standard
+[Speaker_04] 對我來說是問題
+[Unknown] 對我來說是問題
+[Speaker_06] 你做Computation，你不管今天是Prametization
+[Unknown] 你不管今天是Prametization，你不管今天是Prametization，你不管今天是Prametization
+[Speaker_06] 電腦都可以幫你計算所有可能的Fragmentation很快啊，電腦都可以幫你計算所有可能的Fragmentation很快啊，電腦都可以幫你計算所有可能的Fragmentation很快啊，這不是問題
+[Unknown] 瞭解
+[Speaker_06] 人工算當然很慢，但是電腦，你有一定的程式告訴他，就像WooBand可以做這件事這樣子，這沒有很慢，對，但他們就跟我說你要做一個
+[Speaker_03] 我就想說我要再回去Find那些化學的東西，然後我要再自己寫，因為現在
+[Speaker_06] WooBand是可以做的
+[Unknown] 但是
+[Speaker_06] 你今天所有的問題，你今天所有的問題
+[Unknown] 是
+[Speaker_06] 怎麼說，你這個東西不是自己做爽的，對不是自己做爽的，你要發表，你要畢業，那就像剛才你自己講的，人家第一個就會問你說，那你的Novavity在哪裡
+[Unknown] 你的必要性在哪裡
+[Speaker_06] Novavity還沒有到，所以你第一個，你要先告訴人家說，現在，已經有什麼東西了
+[Unknown] 然後Unmet
+[Speaker_06] 你在哪裡，所以你的Niche在哪裡，那在講這件事情的時候，你不能，當鴕鳥嗎
+[Unknown] 好吧
+[Speaker_06] 已經有的東西就是有了，沒有人要叫你去做那些東西，但是你不能管他講成這個東西不存在，或者這個東西不能做，也是啊
+[Unknown] 但如果說他們要我去
+[Speaker_03] 針對這些不同的條件，都幫他們設計好，寫出那個Computation的那個Tool，我就會覺得說你這是在搞我，不是
+[Speaker_06] 我要跟你講的是，你剛才在講這個東西的時候，你的第一步的鋪陳，你剛才講好，你後面的是OK的，就像，大家比較熟悉的是Peptide，那你想想看Peptide，普通的ID，一開始是怎麼做的，也是一樣啊，你所有的Peptide sequence，都可以predict所有的ABC跟XYCIM，對，同樣的，假設有1萬筆，你用人工計算會很慢，但是用電腦這不是問題啊，一開始，那一開始的時候，就是直接去Match
+[Unknown] Match了以後再Score
+[Speaker_05] 那只是說
+[Speaker_06] Mascot或者是，Sequest他們的Score的方法，有點不太一樣，但是那個基本原則是一樣的，你就是Predict，每一個Peptide
+[Speaker_05] 可能，你先從MS的質量
+[Speaker_06] 去Restrict可能性嘛，對
+[Speaker_05] 單單MS的話，你的Triptide Peptide，可能還是整個Database，看你的Database多大，你一條Triptide Peptide的MS1，你可能還是會有，10條甚至100條
+[Speaker_06] 來自不同的Protein，剛好質量是一樣的，但是可以是不同的，來計算順序，系列，假設不要講太多，假設講說這樣子出來有50條
+[Unknown] 那每一條
+[Speaker_06] 會給你一個Unit的，Combination of ABCXYZIM，沒錯，那你剩下來，只是把你的RawData，去Match，看Match哪一個Match最好，然後給它一個Score，一個Similarity Score，這本來就是這樣子做，然後再慢慢進化成，為什麼要有Spectral Library
+[Unknown] 因為你
+[Speaker_06] 用這樣子Predict的，你沒有辦法Predict，你不同的Fragment Ion，的Intensity，對Intensity沒有在裡面，所以你Predict的都是一樣高的東西，對，那這樣子的話你可以去Score
+[Unknown] Score Similarity
+[Speaker_06] 但是後來慢慢的大家，Build up the，Experimentally Derived，Spectral Library，你就可以，是用Spectral去Spectral Match，對，這個的Ion去Match
+[Unknown] 那這樣子的話它就會Take care
+[Speaker_06] 會比Spectral Library，會比Theoretically Derived，會簡單，因為，In Principle，你可以做所有的物化
+[Unknown] 的理論計算
+[Speaker_06] 然後算出說，這條Peptide Secret，哪一個Y2，還是Y5會比較，容易產生，所以Intensity會比較高，然後Y3比較不好產生，所以Intensity比較低，但是你這個會算時你也算，不太可能，所以就直接用，Spectral Library
+[Unknown] 那Spectral Library的問題是
+[Speaker_06] 你每一個，要有正解，跟東西才能夠，有Library嘛，但是以普條命來講，現在已經做夠多了，也有人用了Spectral Library，那Spectral Library的好處是，它會有Intensity
+[Unknown] 再加上
+[Speaker_06] 所謂有Intensity就是，那些不太會容易，不太可能或不容易產生的Ion，就不在了
+[Unknown] 容易的就會在
+[Speaker_06] 然後這個再進化到，第三個Step
+[Unknown] 第三個Step就是
+[Speaker_06] AI
+[Unknown] 對
+[Speaker_06] 之前的Spectral Library其實，是土底煉鋼並沒有用什麼，Machine Learning什麼東西
+[Unknown] 你只是Accumulate夠多的
+[Speaker_06] Raw Data，夠多了就可以讓它使用，然後就是當Spectral Library，然後後來再進展就是，因為Peptide可以合成一萬條，對，所以你可以去跑，跑了以後可以Generate出所有的數據，可以去做Machine Learning，可以變成是說，現在已經可以用AI去Predict
+[Unknown] 所以現在已經做到時候
+[Speaker_06] 可以Predict，不只是Predict說你有什麼BYI，你還可以Predict說，哪一個Ion是比較可能的，哪一些比較不可能的，所以就是慢慢這樣子進化，好那你退回來看
+[Unknown] 你第一步可以嗎
+[Speaker_06] 可以啊第一步沒有什麼問題，還是可以，而且一堆人在做啊，沒有Intensity啊
+[Speaker_04] 一堆人在做啊
+[Speaker_00] 對不對
+[Speaker_06] 你在這裡的時候你已經知道這個已經有人在做了，你不能說沒有，那我要怎麼說
+[Speaker_03] 因為他有在做，但我覺得他們這樣子就是像Fortiomi這樣子，一步一步來我覺得他還是不夠啊
+[Speaker_06] 對那你要想的是說，那你這個東西為什麼不能這樣子做
+[Unknown] 並不是
+[Speaker_06] 你的Limitation，並不是說Time Costing，不能去算這個東西，是可以算的對，對人來講這是很慢的事情，對電腦來講也不過是幾秒的事情，這不是，就是說你的Time Costing，你的Limiting
+[Unknown] Time Costing for human
+[Speaker_06] 但是實際上可以解決，你現在不能夠說Time Costing for human，現在大家都用AI了
+[Unknown] 大家都有電腦了
+[Speaker_04] 你這個不是一個Factor，那所以問題應該在
+[Speaker_06] 問題在哪裡
+[Unknown] 你要想的是問題在哪裡
+[Speaker_06] 為什麼不能這樣子做，其實也不是不能這樣子做，我已經跟你講過這個有人在做，但是我們Evaluate過至少看過以後，我覺得沒什麼用，這個你也知道，所以你要講出來的是，不是說不能這樣子做，而是說這樣子做為什麼不實際，不能用，這個才是重點，這樣
+[Speaker_04] 這樣就會罵到他們，但是可以嗎，直接批評他們的問題
+[Unknown] 可以啊為什麼不能
+[Speaker_04] 好啊那我就放心
+[Unknown] 這不是批評人家什麼問題
+[Speaker_06] 這是就事論事嘛，就是事論事啊，你要這樣子做的話可以啊，那問題在哪裡，你要講出問題在哪裡，這是一般不做糖的人不太了解的
+[Speaker_02] 所以問題在哪裡
+[Speaker_01] 問題就像
+[Speaker_03] 我現在看到的首先是如果你，用Insidio的方式你沒有Intensity，再來是糖沒有辦法，至少沒有辦法像Peptide一樣，可以都合成出所有的，你沒有辦法做出一個所有的，你跳得太快了，跳太快了中間還有什麼
+[Speaker_06] 我剛才，再一次，你太過沉迷你自己的世界，完了完了，第三者的角度，我剛才講上部曲，第一部曲就是你純粹，Insidio Go Predict A B C I N B X Y Z，每一條Peptide，你都可以Predict sequence，然後就直接search match，similarity scope
+[Unknown] 對我們一開始做的時候就是用這個方式
+[Speaker_03] similarity scope，把它真正的Insidio
+[Speaker_06] 但是這個的問題我剛才講過，你沒有Intensity，第二步是說你accumulate，夠多raw data了以後，你又有spectrum，你就用spectrum library，spectrum library，有好有壞，有好是說它其實是比較，比較不會事真，因為它有高低，比較real，但是它會subject to，不同的instrument，它會有variation，它會有偏移嗎，會有一點高高低低，所以還是一個similarity scope，只是它會比較好，尤其是，如果你自己inhouse generated，spectrum library，然後你又用自己同樣的instrument，去acquire data，你不是拿別人的spectrum library，你是拿自己generated，spectrum library，自己跑的東西自己去比對
+[Unknown] 這個是ok的
+[Speaker_06] 所以說用machine learning
+[Unknown] machine learning是說
+[Speaker_06] machine learning現在，很多人想做
+[Unknown] 但是糖的問題在於
+[Speaker_06] 你沒有辦法合成，一萬條這樣的東西，你沒有辦法合成這樣的東西，你就沒有辦法去，用true positive，去train data set，然後你也知道，反正所有的AI learning，都是learning嘛，如果你一開始的資料，就是garbage的，那你出來就不會好，所以如果你一開始用的，現在一堆啊Glycopost一堆啊，但是如果，但是如果這些東西，的症解本來就是，模零兩可的，你去train出來的東西也沒用啊，就是candy clutch我們測過了
+[Speaker_04] 所以它的問題
+[Speaker_06] 在於第一個step，為什麼不能只是用XYZ，ABC這些都可以算啊，你要A02 A04，A05什麼你都可以，算啊，算出來有這些理論值
+[Speaker_03] 但是實際上你看到的，special它很多時候，斷不出那些東西，這個才是重點，理論和實際的，理論和實際的有差，所以那時候我才會跟你說一開始，你可能都很低，但是它明明就是啊
+[Speaker_06] 我們再退一步
+[Unknown] 你要構成ID
+[Speaker_06] 一條peptide，最起碼你要有，什麼條件，你一定要有足夠的BYI，對要能夠解除
+[Speaker_03] 它的sequence才行，假設你要ID這條peptide
+[Speaker_06] 你theoretically，當然可以啊你有幾個residue，你就可以predict出幾個XYZ ABC，但是如果你，只看到兩根Ion你可以ID嗎，一定不行嘛，所以你再回到看，Glycon
+[Unknown] 那你可能只看到兩個Ion
+[Speaker_03] 那你要怎麼ID
+[Speaker_01] 當我們精心學習，我們就可以用SVM去計算，那些空掉的地方，還有多少可能性它仍然是同一個Ion，是可以算啊，理論上是可以算的
+[Speaker_03] 那你現在
+[Speaker_06] 已經有一些概念了，我舉一個例子，假設一個NG Lycon，有一個fucose，OK
+[Unknown] 嗯，,這個fucose
+[Speaker_06] 可以世界在外面變成Louis X，也可以Glycol，那你要怎麼區分這兩個可能性，你一定要看到有那個Ion嘛，對
+[Unknown] 對不對
+[Speaker_06] 但是你有看到那個Ion，並不排除另一個的存在啊，確實，它會同時，然後因為它有Ison，然後這個在LC上，現在當然也有很多，現在各方面的努力都，有大家在努力分開來的，你有想要去分開，用Ion Mobility也好，用Capillary Electrophoresis也好，但是我不相信它，你可以分的，每一個都分的很開，所以，每一根Pick裡面都還有可能有Ison
+[Speaker_03] 這是問題，也就是說你最後解出來是一個Composite的Special，那它實際上裡面可能是兩個它，那你怎麼要ID成一個
+[Speaker_01] 如果你要分子量，分子量都一樣啊，機器上讀不出來就，機器上你可能只是Pick的高低差一點點
+[Speaker_03] Intensity，然後你在想
+[Speaker_06] 假設今天Byentenary，這邊是Lacnet，這邊是Louis X，所謂Lacnet跟Louis X就差一個Fuco，但是我們真的搜不得出來吧，Figurement Python，你想想啊假設這邊是Lacnet，這邊是Louis X，你的Theoretical的，Predict的Ion
+[Unknown] 一定會含Lacnet的
+[Speaker_06] 段片，還有Louis X的，但是不是只有這兩個段片嘛，你的Theoretical的裡面還有很多啊，對不對，那你現在是，你的實際產生的Raw Data，這個Raw Data Composition，可以符合這個東西
+[Unknown] 但是你的Raw Data
+[Speaker_06] 裡面你沒有看到Louis X的，段片，你還是可以Match到這一個啊，因為，MS1是對的
+[Unknown] MS2
+[Speaker_06] 他缺了這個Louis X的，段片，但是他其他的有啊
+[Speaker_03] 那就只能說我沒看到，但是他的Theoretical應該是
+[Speaker_06] 但是如果說是以，我們的經驗法則，我會Argue說，你沒有看到Louis X的段片，你要把他Assign成Louis X，這個很不可靠，嗯，但是你如果只是Match的話，除非你的Match裡面，你又加上一堆條件，嗯，不然的話你是沒有辦法區分這個東西的啊，對分不出來，這個是現在的問題啊
+[Speaker_01] 呃我想請問一下，你剛才說有個Flu Pro，他可能在外面可能在裡面，那他可能同時在外面，也可能同時在裡面
+[Speaker_03] 我們現在說只有一顆，只有一顆紅色三角形，這三種狀況都會發生對嗎
+[Speaker_01] 這三種狀況都會發生嗎，同樣子樣的話只有掛外面掛裡面
+[Speaker_03] 只有一顆的情況，那如果你有說你有兩顆，那如果你有兩顆，你可以兩顆同時掛在上面，也可以一顆掛在上面一顆掛在下面
+[Speaker_01] 好那再掛外面的時候
+[Speaker_06] 我說你有兩個Flu Pro，對，你可以一個是這個，對，對，你也可以兩個都是這樣，周圍的斷片全部都一樣嗎
+[Speaker_01] 沒有第三者的斷片，可以證明它是
+[Speaker_06] 但是你這樣跟這樣的時候，你應該要有這個Iron，然後你要有這個Iron，你才能夠區分很多，但是你可能看不到這個Iron
+[Speaker_03] 對啊我看不到它，可是其他隨便告訴我說他都對
+[Unknown] 但是你有看到這個Iron啊
+[Speaker_06] 你看到這個Iron的時候你要把兩個都放在這裡呢，還是一個是在這裡一個是在這裡
+[Speaker_03] 就是問題
+[Unknown] 那你好那你說
+[Speaker_06] 因為我有看到一個這樣
+[Unknown] 沒有Flu Pro
+[Speaker_06] 那合理，那剩下一個我要放這裡，這個就合理了
+[Unknown] 所以我就會把它放到那邊去，嗯
+[Speaker_00] 然後再下來
+[Speaker_06] 就是，以Peptide Sequence的話
+[Unknown] 你會希望看到
+[Speaker_06] 每一個都有，你才能夠訂出序列嘛，但是以Glycan的話，你不會看到這個啊，不會啊
+[Speaker_04] 你會看到這一坨跟這一坨，所以你是用拆的
+[Speaker_06] 你必須是從MS1，的Composition裡面，幾個Hexane幾個Hex裡面，你先扣掉這一個東西，然後，你組成，剩下的是幾個這一個，然後配在哪裡，但是即便如此，你也不知道說，你可以不可以是Polylene，也可能啊
+[Speaker_03] 它可能有一個Iron是空的，有可能啊
+[Speaker_06] 你不一定是在這裡啊
+[Unknown] 你這個可以放在這裡啊
+[Speaker_03] 那如果放這邊的話，它萬一出現了就是一二三顆，或是一二三四顆加這個加起來，那你就可以說它其實是連在一起的，那前提是說你要看到這個Iron呢，那如果沒看到我還是猜不出來
+[Speaker_01] 如果說它們的Intensity上是有一些，特徵變化的話，那當是要足夠的時候電腦就可以，不足夠啊
+[Speaker_03] 我們知道不足夠
+[Speaker_06] 現在的努力就是一方面呢，你當然希望說有更好的，斷片的機制，因為你，越多斷片你就越有可能，Discriminate可能性嘛，那另一個努力的方向，是說我的LC越來越好，因為我把所有，可能的Isomer都分開，我將每一根Pick裡面，可以同時存在的，Isomer變少，這樣也是能夠幫忙解決問題，對，所以這是在，實驗上，在Acquired Data上，大家可以努力的方向，但是這不容易做，因為你LC，要全部分開很難，你斷片目前的，紙譜儀就是那些，你斷不出來就斷不出來啦
+[Speaker_01] 短時間很難有奇數，那Theoretically可以不可以
+[Speaker_06] 當然可以啊我可以做MS，看不到我就做MS3，MS3看不到我就做MS4，生活量不夠
+[Speaker_01] 我們只要確定一件事情就是，它真的在Intention上會有不一樣的特徵，那我們就有去累積資料的，那我們需要先累積資料，資料沒有，資料要累積到能夠
+[Speaker_03] 做成Library這些事情，我都覺得不是那麼容易了，所以你會面對一個
+[Speaker_06] 是這些問題怎麼去告訴人家，說目前的狀況是這樣，之後我需要錄音
+[Speaker_03] 我需要再好好反省，然後你分析了
+[Speaker_06] 現狀以後，你才去告訴人家說，那你的Solution是什麼
+[Unknown] 因為
+[Speaker_06] 所有要發配額，因為你現在要發配額，對我想要發配額，所有發配額，不管是，不管是多大一個Step
+[Unknown] 你總是要跨前一步
+[Speaker_06] 啊對
+[Unknown] 差別只是有些人跨
+[Speaker_06] 一小步一線跨一大步，但是你總是要跨一小步，至少你才能夠，講出跟人家不一樣的地方，才能夠講出說，欸現狀是這樣，大家的問題是怎麼樣，那我可能沒有辦法，給你一個，Perfect的Solution，但是此時此刻我賣錢的一步是哪，我想到一個
+[Speaker_03] 可以Progress的方法，你一定要能夠講得出來啊
+[Speaker_06] 不然大家聽了以後就不是人家做過的，這不是有的嗎，這不是這樣嗎，難怪我那個時候
+[Speaker_03] 被人家，做Protein的那個人問說，做Protein的那個人問我說，你這樣的東西人家都做過，所以呢
+[Speaker_04] 然後我就傻掉了，我口也是這樣說的
+[Speaker_06] 一定是這樣啊
+[Unknown] 那尤其
+[Speaker_06] 我覺得是這樣子，這個世界本來就這樣子，你可能遇到兩種，兩種極端都不好應付，一種極端是，對這個完全沒有概念的，嗯，所以你就要去說服，為什麼這個東西重要，要做這個東西有意義，那個的話我這樣子騙得過他們
+[Speaker_03] 但是另外一個極端
+[Speaker_06] 另外一個極端是
+[Unknown] 是懂非懂的
+[Speaker_06] 欸我好像看過幾篇Paper，有人做過這些談了什麼什麼，你為什麼不跟人做，感覺這個不是都做過了嗎?
+[Speaker_04] 跟他有什麼不一樣
+[Speaker_06] 你要講出這個東西來，這是一定要的
+[Unknown] 你沒有講出這個你就會被打槍
+[Speaker_06] 沒什麼好做的，你要能夠，講出那個東西，才能夠講出你的價值，不然的話，你跟Kyoko講，你做的東西全部人都做過了
+[Unknown] 對第一次
+[Speaker_03] 那個時候Gryco26的時候
+[Unknown] 他就有跟我講
+[Speaker_03] 是不是人家做過，後來去年，老師那時候沒有去Okinawa，沒有有嗎，對我們那時候去的時候，有再跟他交流一下，後面做一些比較有東西出來，他就說喔那可以，等你發朋友之後再來找我，對，所以應該是有進展了，東西是有慢慢在成形，但是接下來就要跟你講，我覺得成形完之後東西長得有點像該屁，我覺得不太好意思
+[Speaker_06] 這個已經好多年了，快十年了，我看當下的狀況，所以我想要走的是，該屁的那個路線，因為我的論點是，從糖的觀點，你再回到Biology的觀點，因為糖本來就不是Template的，所以，我一直認為說，跟主流的普提奧密的，觀點不一樣，因為主流的普提奧密是，你看到一根就算一個菩提，但是在Glycomic還是有很多人，會去跟你講說，我看到幾百個Glycon
+[Unknown] 會，到處都是，因為他講這幾百個
+[Speaker_06] 你去Challenge他，他是不是結構已經解了
+[Speaker_04] 都沒有解
+[Speaker_03] 他們就SIS拉完之後，我看到這個質量對了，他應該是這個糖，就是有很多，他甚至可能沒有去解MS2，就是他不像我們有去，真的有認真去看美衛
+[Speaker_01] 就是因為糖的斷片就是特別大，跟蛋白質比起來
+[Speaker_03] 斷片沒有到特別大，斷片不容易產生
+[Speaker_01] 我的意思是糖的子彈源更小，所以他相對於蛋白質，糖的子彈源
+[Speaker_03] 糖的一個Uni跟Feptide，跟Amino ACE，沒有差很多，差很多嗎
+[Speaker_01] 有點差
+[Speaker_03] 我覺得還好啊，沒有到數量級的差，他們在同一個Scale上，就只是產生出來的Pattern，讓你沒有辦法Handle而已
+[Unknown] 否定他們已經夠多了
+[Speaker_03] 我的意思是說
+[Unknown] 以目前的指譜的觀點
+[Speaker_06] 你比較容易做到的是去，可以Identify，他的Terminal Epitope，是什麼東西
+[Unknown] 並不是說不要誤會，並不是說我們完全否定說
+[Speaker_06] 你Triangularity是，過來這裡還是過來這裡不重要，它是重要的，可能是重要的，但是你額外的比喻是，現在沒有Iron可以告訴你這個東西
+[Unknown] 這樣
+[Speaker_03] 他處在一個薛定格的貓狀態，他可能是那樣，但我就沒證據，就是沒有Iron可以告訴你
+[Speaker_06] 就是你今天三個Antenna
+[Unknown] 三個Antenna
+[Speaker_06] 一個Fucus，是過來這裡還是過來這裡，我根本不知道，沒有人知道，你要知道可以不可以，你要有Critical的Iron
+[Unknown] 斷不出來
+[Speaker_03] 這個就前提在於說
+[Speaker_06] 你斷得出來斷不出來，你要一次抓MSN，或許可以做得到
+[Unknown] 有沒有一種
+[Speaker_01] 可能有一種，新的Future，你們沒有辦法分析，但他是要足夠量大的時候，他的Future是可以看出這三種，可能這個就是AI的做法，第一個提示
+[Speaker_06] 你要有東西給他訓練，現在沒有東西可以給他訓練，這是我的Point
+[Speaker_03] 2326那個也算嗎，那個是傻佬，即便是2326
+[Speaker_06] 你可以看出是23好了，還是一樣啊，是過來這裡還是過來這裡，我還是不知道過來哪裡，三個Antenna有三個傻佬，然後我告訴你說有兩個23，一個26，那哪一個是過來在哪裡
+[Unknown] 你不會知道啊
+[Speaker_06] 我甚至可能兩次Focus畫的不一樣
+[Speaker_04] 有沒有可能是LC
+[Speaker_01] 那個東西能不能成為一個Future，現在就是因為
+[Speaker_04] 可能還沒有辦法分開來
+[Speaker_03] 就是老師剛才說，有人一直嘗試想要，因為這理論上它是不一樣的東西，理論上應該可以分開
+[Speaker_01] 如果我來說很簡單的三個分類問題的話，那你分類，我就是把所有有可能，跟這個有關的Future，甚至你覺得沒有關係，我全部都丟進機器學習裡面去，可是你其他的
+[Speaker_03] 你Special的其他的Data，可能不會有什麼差，LC出來的時間都差不多，然後
+[Speaker_01] 我們不管我們就是把資料丟進去，機器說不定就需要超級電腦，不用超級電腦，Render First也可以辦得到，那可以試試看
+[Speaker_03] 這個可以做的啦，你唯一沒有的就是
+[Speaker_06] 足夠的Data
+[Speaker_05] 足夠的證據
+[Speaker_01] 沒有證據，這不一定需要證據，因為它是一個分類問題，所以我們可以做分群試驗
+[Speaker_03] 我之前跟你講的那個Subcategory，就是我先給你Assign假設它們都是這個樣子，但是實際上你跑完之後你發現有兩群，那你就可以說它們可能
+[Speaker_01] 你可以猜它們是兩種不同的，分群以後來告訴你說，就好說我們現在想要做的Workflow裡面
+[Speaker_03] 可以讓你Accumulate這樣的Data，所以理論上Accumulate夠多之後，你再去給它繼續學習，我覺得這裡面好像有兩個不同的Branch，這是什麼
+[Speaker_06] 自己去驗證
+[Speaker_04] 最後還是得去解到底那個是什麼，還是得去
+[Speaker_03] 想辦法最後可能MSN，或是我不知道任何神奇的，剛才有一個Magic，我不知道可以把它寫出來，你至少可以分台，但接下來就是缺乏，至少你確定有差，那後面你還是得做實驗去，不管做MS3 MS4 MS5，那你最後還是一定要證明說，這個東西真的存在，那才有說服力，就譬如我給你看一下
+[Speaker_06] 這五個Pick都是同一個Composition，這個就是有分開的
+[Speaker_03] 有分開啊，很漂亮對不對
+[Speaker_06] 很漂亮，然後你就要Individual去看，那這邊當然這邊，稍微比較複雜一點，因為這是要看Selfie的Position，那The Point是，我其實沒有辦法很Critically，譬如說這個好了，這個Selfie是掛在這裡還是掛在這裡，我沒有辦法從這邊，因為我這邊的IM不夠，所以我沒有辦法去區分，但是我可以分開啊，1 2 3 4 5，但是即便如此，我沒有辦法告訴你說
+[Unknown] 比如說B裡面不會有B1 B2 B3
+[Speaker_06] 它可能還要值分群
+[Speaker_01] 那我能說的就是，當你資料夠的時候，我們電腦就可以自動幫你分群，那自己分群以後，那個分群有沒有意義，就是你們可以再去檢視
+[Unknown] 就他的意思是
+[Speaker_03] 你資料假如這邊有1萬筆，類似這樣的Pick，1萬筆MS2，然後你最後B裡面它可能電腦跑一跑，它跟你說B裡面有1萬筆2
+[Speaker_01] 它覺得B裡面有一半的資料都比較靠這邊，一半的資料點都比較靠這邊，它在SVM的三維空間映射上，它們其實就是不一樣的空間的話，那你們就可以再，去再研究一下
+[Unknown] 也許就可以找出
+[Speaker_01] 新的分類的特徵或方法，我們理論上Wallflow
+[Speaker_03] 最後可以支援到這樣，但是最後你驗明它真的是不是，B1 B2 B3，你還是要去做實驗，去把它們出來
+[Speaker_01] 就是只要資料夠我們可以說，這裡可能有兩個東西
+[Speaker_03] 現在都不夠所以不好說，這裡有兩個東西
+[Speaker_06] 我這樣子看，我就知道有兩個東西啊，對，我告訴你說可能有三個東西
+[Speaker_05] 可能有四個東西，至少有兩個東西
+[Speaker_01] 不只是這樣，這一筆資料可能是屬於A類別，下面這個可能是屬於B類別，但是A和B是什麼我不知道，這個你們可以驗證，但至少你們已經把同樣一個東西的每一筆資料，都分成A類別和B類別，好，我的前提是
+[Speaker_06] 如果我每一次跑，我的LC都reproducible
+[Unknown] 對啊可能不reproducible
+[Speaker_04] 假設可以的話
+[Speaker_05] 我也不需要你分
+[Speaker_06] 我本來就可以分，ABCDE我本來就可以分
+[Unknown] 對啊，因為它LC在
+[Speaker_06] 不同的位置出來，我本來就可以分
+[Speaker_03] 因為假設reproducible的情況下，你前面，我們這樣的World 4是希望，你前面已經標過了，下次再做一個reproducible，我們已經在這邊用了
+[Speaker_06] 你這個不需要training啊，基本上這個是by definition，對啊那個LC如果已經分得出來的話
+[Speaker_01] 那LC的數據就是一個很好的特徵，但魔神也記得啊，反正我就丟進去
+[Speaker_03] 下次他就會跟你說他是B，因為by definition
+[Speaker_06] 假設我是同一個質量，但是在LC上，是獨立的pick，那by definition，他就是不同的，我之前那個feature裡面不是有一個嗎
+[Speaker_03] 現在還沒有用，他以後是pick了，我還有個欄位，我那時候把它drop掉了，那裡面有個欄位是pick，我可以給你寫12345，所以理論上你可以有那個分群
+[Speaker_01] 你可以直接跟他說這個就是那個，我們不要漏掉任何的卡
+[Speaker_03] 我現在問題是你這個pick它是分得開的，實際上你在看的時候，它萬一長得很像要分不分的，然後你最後pick1pick2pick3，誰要來而賽，什麼意思，假如它現在三根連在一起，或者是它看起來是2.5根，可能今天給老王，老王跟你不要3根pick，然後老黃跟你不要2根pick
+[Unknown] 這個你要怎麼算
+[Speaker_03] 它有幾根，我沒辦法告訴你啊，所以我現在才不敢把它放進去
+[Speaker_06] 原本是這樣子，原本很漂亮
+[Speaker_01] 然後分不開的時候，就變成這樣子，那就更應該放進去，但現在問題是，但現在問題是
+[Speaker_03] 現在最一開始我們今天要demo的東西，它還沒有到可以算這個的，我們沒有把它放進去，我們資料不夠啊，但我們先把欄位放進去
+[Speaker_01] 欄位在裡面了，欄位已經在裡面
+[Speaker_03] 因為我現在知道它這樣不夠，我把它除掉，它以後夠了隨時都可以放進來，對對對，對，我已經想好了
+[Speaker_06] 我只是在回答你第一個問題而已，可以，因為人家覺得你沒有什麼事，因為人家做過我沒辦法說出來，因為你要先define你的問題嘛，你要先能夠講出來說，現狀是怎麼樣，現狀是怎麼樣，別人做到怎麼樣
+[Unknown] 那unmap你在哪裡
+[Speaker_06] 那你可能沒有辦法在你這個入口裡面，就解決所有的問題，但是你至少解決所有的問題裡面的其中一個問題嘛，但是你至少解決所有的問題裡面的其中一個問題嘛，但是你要把這個其中一個問題要define出來啊，但是你要把這個其中一個問題要define出來啊，然後讓大家能夠接受說，的確這個問題是之前沒有人解過的，的確這個問題是之前沒有人解過的
+[Speaker_03] 我們解決了幾個問題啊，好像不止一個耶，反正你就繼續講下去，你解決什麼問題啊
+[Speaker_06] 好啊好啊
+[Unknown] 欸那解決之前我想要先講一下，欸那解決之前我想要先講一下
+[Speaker_03] 去年，你應該有看到這篇吧，那個，predicting ligand structure from tandem mass space，predicting ligand structure from tandem mass space，那個用gagal force的電腦去訓練的那個，那個用gagal force的電腦去訓練的那個，你們後來余俊學姐有跑過嗎，因為那個時候我有跟他賴過，結果我跑不出來，他那個程式根本不能用
+[Unknown] 他那個程式根本不能用
+[Speaker_04] 他那個程式根本不能用，後來他們跑去黃金那邊，整個各位搬到CCRC去，整個各位搬到CCRC去，然後就不幹了，最近黃金跟我說他們不幹這個了
+[Speaker_00] 做不下去了
+[Speaker_04] 我跟你講一下發生什麼事情，那個時候我跟那個，QQ老師
+[Speaker_06] 你回到剛才那一章
+[Speaker_03] 繼續講，可是下面這些我覺得不是大問題，因為這些都是可以解決的，像這個我是說大家跟人飆糖的方式，飆糖的方式不一樣，就是你可能單純用graphical的representation，你可能嘗試用，什麼那個gagal CT，反正你用
+[Speaker_06] 你的type是什麼
+[Unknown] 限制
+[Speaker_03] 你是認定的限制，對啊
+[Speaker_06] 簡單講只有一個，資料量不夠，正解的資料量，簡單講就是這樣子，其他的都是起始
+[Speaker_03] 所以就是最下面這一點嘛，我沒有足夠資料啊，那個gagal post上面他們那個filter完，就是一堆咖啡菌，跑完之後最後只能看，只能看簡單的，Code 1 Code 2 Code 3，現在都看不出來，但是這個是一個比較
+[Unknown] 哲學的東西
+[Speaker_06] 我需要知道
+[Speaker_01] 這件事情很重要
+[Speaker_03] 反而就是這樣，就是剛才，我講的這樣子
+[Speaker_06] 假設今天，我知道有，我扣掉這個以後，有三個antenna，兩個filclose
+[Unknown] 你覺得
+[Speaker_06] theoretical，你有多少個permutation，的結構，很多對不對，很多嘛，尤其filclose，你又考慮說它可以在這裡，可以在這裡
+[Unknown] 我的問題是
+[Speaker_06] 假設你這樣子算，theoretical的combination，可能是50個，我的問題是我需要知道50個嗎，會不會我只需要知道兩三個就夠，還是我只要知道說，它的確是trientenary，然後它的確有，沒有h，沒有y，這樣子就夠了，就是要看
+[Unknown] 未來的科學研究
+[Speaker_01] 我也需要知道，然後我們現在不知道
+[Speaker_03] 不知道它到底多麼重要，所以那時候我走個IP的
+[Speaker_06] philosophy就是這樣子，因為現在的技術，沒有辦法幫我解這50個，但是我們可以解，什麼東西，我至少可以告訴你說，的確有louis y還是沒有louis y，的確有louis x，還是沒有louis x，因為這個是我的data可以解決的，那其他的，你要講什麼都ok，問題是你不會有答案
+[Unknown] 但是
+[Speaker_01] 只要資料開始，正確的累積，那是以後的事情，那現在老師做完這些
+[Speaker_03] 他想要跟人家show，肯定只能說就這個樣子
+[Speaker_01] 然後在未來他就可以變成，AI的大模型，那是未來的事情，但是如果我們不累積資料，所以我希望我們這樣子
+[Speaker_03] 可以讓大家開始累積資料，我們同一格式，這樣以後就不會有問題
+[Speaker_01] 但是格式設計就非常的重要，如果你漏了什麼，那我們未來可能就算是一個很重要的future，所以我把它弄成
+[Speaker_03] 現在是弄成festival
+[Unknown] 但是核心那個
+[Speaker_03] 所以之前我找你的時候
+[Speaker_06] 我想要做的事情就是這樣，我現在做的事情是，我把東西拿出來，人工解，然後我要把這個東西，能夠存在一個格式
+[Unknown] 然後未來
+[Speaker_06] 就像你講的我慢慢累積
+[Speaker_00] 因為我也沒有那麼
+[Unknown] 偉大那麼厲害
+[Speaker_06] 說一天看一萬筆，而且很多，可能一萬筆裡面，只有五十筆可能是，真正有用的，我很可靠的，但是我要有一個格式，可以給我存
+[Speaker_03] 因為這包括我的annotation，對，你現在開始慢慢知道我想幹嘛了，我要能夠有一個註解
+[Speaker_06] 說，這個裡面，我重視這樣子解的，這個裡面有兩個可能性，還是有三個可能性，可以啦我覺得
+[Speaker_01] 讓我再搞清楚一點，我一定可以設計出一個好的，來儲存這個東西，我現在是把它存在Excel裡，Excel不是一個項鍊
+[Speaker_03] 但whatever，老師我跟你說我現在就是，我propose的東西就是，反正你現在比如說把它當一個分類，你知道它是某一個，你知道它現在應該是這樣表，那我給你存，然後你可能有個備註說，我覺得它有兩個可能性，然後你不是就有圖譜了嗎，所以圖譜，那張圖譜就對到這個東西，那我們累積這樣很多的資料之後，那接下來，你可能明天就是你可能之後，我先講完，你累積了可能這五種各100筆，那你接下來你就點一下，機器學習先幫你把這個，那你接下來你接下來進一圈筆，它可以自動幫你看是不是這幾個，那就可以減少你，畫時間看重複的special on，而且你確定它是至少你知道它是這一類的時間，那你可以花更多心力去看，去解或者是模型在幫你看，說其實這五類就是你剛剛說，可能A其實有A1 A2，那你最後機器學習，跑來跑去它跟你說，好像有兩種那你這時候就可以再去細看，對
+[Speaker_01] 可是老師想要的不只是這樣，老師想要連這個東西都數字化下來，啊數字化要數字化到多，數字化就是像一個欄位一個值，一個欄位一個值
+[Speaker_03] 現在我沒有辦法我現在是把它存成一坨，可是我們必須要做到可以，要做到可以，那就要靠你了，因為我智商沒那麼高我沒有職工背景
+[Speaker_01] 這樣我完全了解，這個東西的規則，我就可以把它轉成數字矩陣，你的規則是指什麼，就是
+[Unknown] 呃
+[Speaker_01] 它所解法的可能，和規則然後我們把它想像，想成一個合理的數字矩陣，來確保，這個數字矩陣可以完全表達，這件事情
+[Speaker_06] 所以你知道這件事情是情緒難暫的嗎
+[Unknown] 跨領域嗎
+[Speaker_01] 對
+[Speaker_06] 現在你講你講到一個關鍵字，如果你完全了解這件事情，沒有人完全了解
+[Speaker_04] 你就可以設計，有的話他現在就是，所以那時候我找你的時候
+[Speaker_06] 我才覺得是說你如果沒有辦法來這裡做事，做事這樣一直互動的話，你是很難完全了解，確實確實，然後要靠這樣講是很難的
+[Speaker_05] 確實但是
+[Speaker_03] 所以老師才說你一定要來現場，online meeting救不了你
+[Unknown] 對不對
+[Speaker_06] 然後你也知道學術界的問題，嗯，我今天可能收到一個學生，他做了兩年就跑了，然後接下來我又要再從頭開始，對，再從教你什麼糖，什麼什麼這樣慢慢再教起
+[Speaker_01] 你們就建了很多半成品的系統，然後就，就是學術界的宿命啊，對
+[Unknown] 那尤其是
+[Speaker_06] 這種東西，因為這個東西跟拍打不太一樣就是，這個需要一個很，強的glycobiology的knowledge，然後我才能夠告訴你，什麼東西是重要什麼東西不重要，對
+[Speaker_03] 光是linkage這些東西，我就要先告訴你我要先有background knowledge，我現在你叫我全部準備出來，其實我們現在做的東西很簡單
+[Speaker_06] 第一個是，你從MS1，要湊composition，這一點問題都沒有，前面的那個，因為很多軟體都可以做這個東西這個完全不是問題，不管你是用怎麼deliver decision，這些都不是問題，然後你就去看那個MS2，MS2裡面，你只要找幾個key iron而已，我們所謂的，diagnostic的key iron，feature
+[Speaker_03] 然後那個key iron
+[Speaker_06] 可以告訴你什麼
+[Unknown] 你就define什麼
+[Speaker_06] 然後不能告訴你什麼，你也被救起來不能告訴你什麼
+[Unknown] 假設我有個
+[Speaker_06] 我看到這個，我用紅色的，我就知道它有這樣的一個epitope，紅色的就很specific
+[Speaker_04] 很specific的
+[Speaker_06] 所以我看到這個的時候我就知道有這個東西，那我看到這個的時候，我知道有這個東西，那如果有一天這個structure，剛好ABCD我可以分得開，但是如果同樣的epitope，可能掛在不同的glycon上它分不開的時候，我同一根peak裡面，我可能有這個數字，也有這個數字，然後那個軟體就要告訴我，這三個都存在，就這樣而已
+[Speaker_01] 我想到怎麼存這個，這個東西就跟那個，網路與那個，節點圖學是一樣的，沒有圖學的那種方式，儲存就可以了，圖學的話就是你會說，類似FB的交友分析，這個是第一個人，然後這是第二個人，然後他們之間有交友連結，那每一個人有不同的屬性標記，這是圖學有處理過的資料，應該可以用一樣的方式去儲存，我會從不同的範圍來看
+[Speaker_06] 因為，我們通常做這個事情的時候，我一定知道它是N-Gycon，還是O-Gycon
+[Unknown] 對啊
+[Speaker_06] 我知道是N-Gycon，我就會馬上先畫這三個，這個
+[Speaker_01] 因為我們要儲存向量的話，我們並不會先考慮，向量的合理性，讓它們可以包容所有可能，但我意思是
+[Speaker_04] 你前面N-Gycon和O-Gycon
+[Speaker_03] 就是前面儲存的東西，都會是長得一樣的，老師是這個意思，沒有關係，我們可能例如說你取feature，就是你把它存成一個節點，假設它是20個欄位，你可能N-Gycon它前面三個欄位，四個欄位都一樣，可能兩三個欄位都一樣，這完全沒有關係，但是它就有這個特性，會很快速的
+[Speaker_01] 那個是後面記憶學習的部分，我們第一步驟是正確的把所有東西都存下來，那好啊
+[Speaker_03] 那我現在萬一我linkage不確定，linkage不確定喔，這個時候你要存不存，存一個問號，現在那些存那些糖的，就是把它數值化的format裡面，就給你的問號啊
+[Speaker_01] 對你們還有linkage，我們還有問號啊
+[Speaker_03] 對啊就是我光是跟他們說，少了幾個次元了，然後
+[Speaker_06] 還有alpha,beta，對還有anomal，不過alpha,beta通常都是用assume，說說而已
+[Speaker_03] 不會真的對你
+[Unknown] 造成什麼太大的傷害
+[Speaker_03] 不會reviewer跟你說這是alpha還是beta，直接就把你解掉，對但是linkage，可能真的有機會他可能會問你，不懂他就會問你說你為什麼真的是問號，我做不出來啊，對會這樣子，所以存的時候會有問號的問題，你先趕快走過一點，好啦那這個，這個還要講嗎，反正就是我們測了他們的資料之後，因為我原本想要做的事情跟他有點像，我不知道，我知道你說該個的data，沒有應該不適合做這個，做deep learning，但是我就在想他到底多不適合，然後我們就去翻，然後翻一翻之後就是發現該個host出來的資料裡面，大概他那時候多少，50萬筆裡面有，57000筆是
+[Speaker_04] 那個，那個，那個什麼
+[Speaker_03] 就是那個，加一個，對他裡面佔了，多少，5%還6%，然後反正你就把簡單的，簡單的
+[Unknown] 簡單的五六個加一加之後
+[Speaker_03] 就佔了裡面樣本的，好了我已經想到怎麼存了
+[Speaker_01] 好那好那等一下我們來說
+[Speaker_03] 因為六個
+[Speaker_01] 假設六碳糖和另外六碳糖，今天都有，每個碳之間都有可能性，我們就保留所有的可能性，然後你再多一個欄位是，反正我知道他們有連在一起
+[Speaker_02] 我覺得你在描述一個我知道的某一種
+[Speaker_03] 糖的儲存的format，我再回去翻翻我找給你，好像有人嘗試這樣命名過了
+[Speaker_01] 反正我們不怕矩陣大，我們就怕矩陣肉
+[Unknown] 太好了那我直接
+[Speaker_03] 我直接把那幾遍fable轉給你，你到時候等我，反正這邊要說的就是測完之後，我們就發現他都只訓練這些，常見的蓋克那你當然找不到，minor蓋克，他根本認不出來，然後他就真的是，我真的沒有辦法，而且他也不告訴你原本，標出來的他是這個糖，他也沒告訴你MH2是什麼，一次又整個跑一個data，然後你要設定那個，他有限制，我某些種類設下去他一定會跳error
+[Unknown] 所以那時候請你改控
+[Speaker_03] 就是他們根本，他們沒有測那麼多，我相信他們只有讓他們自己測試的sample data，跑得動他們就去fabular，對
+[Speaker_02] 我還有保留那張圖你知道嗎，沒有還是老師想看
+[Unknown] 先講完
+[Speaker_06] 先講完
+[Speaker_03] 反正就是那個時候測
+[Speaker_06] 你到底想做什麼
+[Speaker_04] 好來來來
+[Speaker_03] 然後從這邊開始講，我想做的事情到底是什麼，就是我們不是資料量不夠嗎，那我那時候也是先想說，那我們從有限的資料裡面我們能做什麼
+[Unknown] 那我就想說不然我們先來看看
+[Speaker_03] 傳統機器學習方法，有沒有辦法認出，就是我已經標過這些糖了，那他能不能夠重現我把糖，把我看過的糖再告訴我，你看過的這個東西是那個糖，能不能先正確辨認
+[Unknown] 對
+[Speaker_03] 然後所以就請偉剛跟我一起，試一下，我們就選了一些就是，我們想辦法把spectrum ms2，存成一行一行的，文字檔，那這樣子的話就可以給機器做學習，所以我們後來試一次就用這個軟體，然後找了幾個模型，然後大概就是這樣，可是那時候資料量很少，我那時候拿gybrush來測，然後像這個應該是gybrush brain吧我記得，然後他反正，就是我的code調還沒懂，我才沒有什麼給他學，然後只學後面那個conface type，然後學一學就發現他，像這邊這個有一個表現，藍色是表現差，黃色是表現差，黃色是100分，黃色就是他絕對正確，他能夠我給他，告訴他說這是這個糖，之後他下一次一定能夠猜對，能夠判斷對，像這個藍色的就是那個，然後他圖譜又只有兩張，還是三張吧，就是數量少到機器學習沒辦法，沒辦法應付，那他就會跑得很爛，所以我們至少知道了同一個糖你要給他跑，MS2至少要，五張，五張是勉強可以，十張以上的話你有十個MS2 representing，這個改變的話，那機器學習大概就記得了
+[Unknown] 十張MS2你只要確定品質夠好
+[Speaker_03] 看起來像是，你給他他就記得了，所以你接下來，你下一次你再來同樣，同樣是正電同樣是Permacidation，然後Ada都是，Ada你甚至可以自己輸入，你都是Photonating，那他就一定認得出來，他把Spectrum的訊息記錄下來的時候，他用機器學習的方式，就是有點模糊，但是你又知道有哪些重要的Pig，他就記下來，後面我們，我們等一下繼續往下講，中間有一些小技巧
+[Unknown] 就是，我們在嘗試把
+[Speaker_03] 直譜的Pig的特徵，抓下來的時候我們發現有個，很大的問題是，就是每一張圖譜他的Piglist，都很長嘛，很多資訊在裡面但大部分是Junk，就是對我們來說不重要，也不會說是Junk就是Useless，所以我們那時候就想說，怎麼樣能夠，把儲存就是有用的Iron，這件事情，讓他變得很重要那結果想一想，就發現這就是該Pig裡面，你要輸的那個Iron的那個
+[Unknown] 你先告訴他DiagnosticIron
+[Speaker_03] 是哪些那很好那接下來，我就只存這一些，那我存這些DiagnosticIron之後，那重點就變成這些DiagnosticIron，他的Intensity，他現在在數學上他變成是，我知道這些，這一些段片他就是，Feature他就是特徵，那你現在用他的訊號強度，去當作他的那個特徵的強度
+[Unknown] 那你這個時候
+[Speaker_03] 每一張圖譜他就會有，一樣的就是你只看那幾個，看那幾個FragmentationIron，那你看他的強度那機器學習，很快的他能夠，掌握到你這些Iron的強度，再去做相，那到底算不算相似度啊，Similarity嗎還是只是做分類
+[Speaker_01] Similarity是相似度，就是嘛對啊
+[Speaker_03] 那他就是用這樣子去分，那你模型都記得了之後，你下一次你再輸進來，他就跟這個相的，他自然而然就會把你標準這個糖
+[Unknown] 也就是說你當初記錄他是什麼
+[Speaker_03] 你不管你這邊給他備注，你是跟他說你糖
+[Unknown] 你是給他下一個再複雜
+[Speaker_03] 就是說你跟他說兩個Fragments，都掛在Terminal上面，然後一個掛上面一個掛下面之類的，你只要，符合這個描述跟他說，你是這個糖然後你有他的MS2之後，他每一次找到他都會跟你說，回覆說應該是這個，那如果你有其他類似的糖，你覺得很像但是你把他標準不一樣，他Python確實也不一樣，那你丟回模型他也會記得，所以下次他就會告訴你說這個，這個是你標的第一種糖，這是你標的第二種糖，模型可以認得就是我們至少驗證這件事情，對然後再來後面就是一些，Intensity的調整，就是像設一些Cutoff，把訊號太低的直接濾掉，然後或者是，我們有取一個Log10，讓他在跑機器學習的時候比較
+[Unknown] 如果要畫圖會比較好看
+[Speaker_03] 會比較集中一點，然後資料，存下來的資料那個檔案也會比較小，沒有啦取Log最重要的是
+[Speaker_02] 在某些模型當中
+[Speaker_03] 某些模型他的表現會變異
+[Unknown] 不取Log的話模型表現會變差，因為太分散，因為他是數學函式的問題
+[Speaker_02] 他必須處理道理道理之間的，那就一定要處理
+[Speaker_03] 對啊，所以我就想說最後，我們整件事情的核心就變成，你要提供，就是你要告訴我這張MH2是什麼檔，就是你要認真看，然後再來就是你要給我哪些Fragment Iron是重要的，那加上這兩點，再加上程式轉出來是CSV，是Excel檔，那不就是個IP了嗎
+[Unknown] 那就變成GuyP2.0啦
+[Speaker_04] 概念上我覺得就沒有，就跟學長沒有什麼差了
+[Speaker_03] 就是這樣子，反正前面這些東西，都測完之後我們就想說，那我們一個工具要什麼，到底要落檔轉成，轉成什麼東西，對
+[Speaker_00] 你還是沒有
+[Speaker_06] 你還是沒有Define your problem，Problem
+[Speaker_00] 所以
+[Speaker_04] 就好比說，你今天
+[Speaker_06] 你是在寫一個Proposal
+[Unknown] 那就像剛剛我講的
+[Speaker_06] 你第一步一定是先分析狀況
+[Unknown] 然後Identify問題
+[Speaker_05] 然後告訴人家，你的Specific Aim是什麼，那我則願重新來過
+[Speaker_03] 就是我們剛剛講到這些之後，那我們現在面臨的問題是，首先你可能沒有很多的資料，然後
+[Speaker_01] 那個你剛剛說都跟其他人很像，那別人的優勢是什麼，別人的劣勢是什麼
+[Unknown] 那我們的優勢是什麼
+[Speaker_03] 那我現在講就是，我們希望大家都能夠，就是用這個方式存下固定的格式，那你能夠把這一些量很少的數據的，GuyCon的Specific Aim，存下來，那存下來之後可以做機器學習，可以做小規模的機器學習的時候，你可以解決的問題是，你同一個實驗室，因為你產出來的Spectra應該是相對有Reproducibility的，所以同樣的糖應該，這概念上一點都不新鮮
+[Speaker_06] 不新鮮
+[Speaker_03] 但是，我們用這個整套World4做下來之後，你可以一直累積這些資料，那累積到過多之後，你就可以再讓機器學習去幫你找
+[Speaker_06] 大家都想說，那我怎麼累積，但就沒有人把它做出來，就像剛才我講的第二步一樣，你第一步就是Predict，第二步就是Spectral Library，你這個概念其實就是，Build out Spectral Library而已，Build out Usable is Spectral Library
+[Speaker_03] 所以讓它可以用Machine Learning的方式，套上去，那好像，問題到這邊就解決了，那接下來解決這個問題之後，我在想的是之後，就是
+[Speaker_06] 我會覺得是說，如果我比較嚴苛一點，我會覺得你這個東西
+[Unknown] 沒有研究就恐怖了，你只是把它做出來
+[Speaker_06] 你沒有研究就恐怖了
+[Speaker_04] 要說的話，我心裡面覺得確實是這樣
+[Speaker_01] 我們真的沒有解決其他現有的問題
+[Speaker_06] 你描述不出來，你要說的話
+[Speaker_03] 我覺得我接下來Data Format，那些弄出來的東西，會讓你好準，然後整套Workflow，它可以讓你Track，Track你前面做的操作，也就是說你Machine Learning那些Parameter，應該可能Data是Bind在一起的，我們準確度沒有更高，準確度?，你說跟誰比
+[Speaker_02] 跟任何相似的人比，你只有人可以比
+[Speaker_03] 我怎麼跟人比，你說模型跟老師比老師一定比較準，模型跟我比模型比我準，你的描述只是
+[Speaker_06] 基本上就是，把東西做出來，對就是把東西做出來，有一個V隔可以幫我存東西，然後將來可以用Machine Learning來Train，就這樣而已，對，就沒有Research，做出來的，前面的人沒有做出來
+[Speaker_04] 那你要描述
+[Speaker_06] 我講的這個，有那麼難嗎，問題在哪裡，所以你去解決這個問題，沒有的話，那只是我不會寫Script而已，我找一個會寫Script的人，就幫我寫完
+[Unknown] 就沒有Research，好難喔這個，前面Research的部分
+[Speaker_03] 有聽懂嗎
+[Speaker_06] 譬如說我要做一個
+[Unknown] 免疫實驗，那我知道
+[Speaker_06] 本來就是應該要這樣子做，要養一個Cell，然後要Treat IL什麼，要去做這個，那只是我實驗室，不會做這件事情而已，那我找一個會做這件事情，把這個Offload建立起來，這個有叫Research嗎
+[Unknown] 沒有啊
+[Speaker_03] 因為要說的話，如果我們把整個MS2的所有的Pig，拿去做Machine Learning的話，它需要大量的資源，大量資源現在是問題嗎
+[Speaker_06] 人家ChangePT用的資源更大，但是
+[Speaker_04] 對但是我就會
+[Speaker_03] 說它萬一進去的，大部分都是Garbage，那你會不會只有ChangeModel也是Garbage，那所以就想到該Pig那個時候的，那些Fragmentation，如果把它當Feature
+[Speaker_06] 但是那個你沒有，我的Point還是在這裡
+[Speaker_04] 沒有人想過這件事情吧
+[Speaker_06] 那你剛才自己就承認了，你如果只是這樣子
+[Unknown] 那你跟該Pig有什麼不一樣
+[Speaker_06] 對啊所以我一開始就說，那我好像變得跟該Pig沒什麼不一樣
+[Speaker_04] 對
+[Speaker_06] 我做該Pig的時候，我其實那時候跟鄭德討論的時候，我們的看法是這樣子
+[Unknown] 我不會寫
+[Speaker_06] 很高竿的Algorithm，我Training不是這些東西，其實我們要做的東西，沒有很了不起
+[Unknown] 我只是需要有人去做而已，那該Pig，其實就沒有什麼Score
+[Speaker_06] 沒有什麼東西啊，我們就是把那些東西Pick up，放在這裡Pick up放在這裡這樣子，就好比說現在，我覺得我不會寫Code，我可以教ChangeGPT幫我寫Code這樣子，嗯，因為我要的就是把我腦裡想的，本來這樣這樣做的東西，把它抓出來把它做這樣子而已啊，你真正要高竿的，你不能走該Pig的路線啊
+[Unknown] 你要有一個比較厲害的
+[Speaker_06] 就是該Pig是因為，我不去用Machinery，我也不用Algorithm，所以我用人工去挑Diagnostic Ion，抓出來，但是因為我是這樣子做，我一開始就限制自己了
+[Unknown] 我再怎麼Machinery
+[Speaker_06] 不會加分啊，我要Machinery加分是，你除非有一個很高竿方，我同意你有Too many value，嗯，但是假設裡面有，我們隨便講好了，假設裡面有20個Value
+[Unknown] 其中有5個Value
+[Speaker_06] 是我們本來已經知道的Diagnostic Ion，對，但如果還有5個是不知道的，10個Value是渣，但是，5個Value是我們沒有Assign，但是是有用的，如果你今天還是只是拿那個5個，本來我們就知道的Value，你沒有Enhance的東西啊，你Machinery也不會Learning出什麼東西來啊，你厲害的是，如果你20個Value，你把那個渣的10個Value排除掉，然後把5個知道跟5個，我們認為是有用的，但是不知道是什麼的給Machinery
+[Speaker_02] 我記得我們的Machinery，可以吩咐Incoherent Future
+[Speaker_01] 但是這樣的情況下
+[Speaker_04] 現在Machinery AI
+[Speaker_06] 大家最，每次講經驗就是它就是一個黑箱嘛，我們放進去，出來我們也不知道，因為它電腦能夠看的Feature，比人腦可以看的Feature多，我當初是希望這樣，那你又全部Builder，只剩下那幾個人腦可以看，那你就不用Machinery了
+[Speaker_04] 我們前面一開始是有設計那個，但我那時候Argue的點是，那我要如何給你
+[Speaker_03] 就是10張真的都是，我確定這10張都是這個，然後我要你幫我找Feature，所以才回到我的問題嘛
+[Speaker_06] 我們一開始就講了啊，Machinery Learning，我很崇善我也很想做，問題在哪裡，沒有足夠的正解的Spectrum嘛，那我現在，那你沒有解決這個問題啊
+[Speaker_04] 用這整套流程，你就可以累積很多正解的這堂堂
+[Speaker_03] 你自己的東西裡面
+[Speaker_06] 你只有那5個Diagnostic Ion，是大家都本來就知道的，你沒有Take Advantage of Machine Learning，可以幫你看人腦不能看的東西啊
+[Speaker_04] 老師可是我們存下來的資料裡面
+[Speaker_03] 你是可以Refer回去的，就是說你知道那幾筆
+[Speaker_04] 你知道它裡面有Diagnostic Ion，可是你還是可以回去
+[Speaker_03] 我們整套流程讓你可以回去，找回它原本整套Pixels
+[Speaker_06] 沒有你已經Reduce more than 99%
+[Speaker_04] 那是For Training Model
+[Speaker_06] 你Train完之後
+[Speaker_04] 你會先拿到
+[Speaker_03] 這個步驟是讓你先拿到更多，就是有類似關注
+[Speaker_06] 沒有啦你Train的時候就要全部去給它Train啊，你才能夠電腦才可以幫，AI才可以幫你看出人看不出的東西啊，沒有我們希望的是
+[Speaker_03] 你先有我們這整套流程，讓你有更多標過的它，那你有標過的MS2之後，你在拿原本的那個Spectrum，你知道你現在知道它，你現在知道答案是什麼了，就是整個Picklist的資料回去給，回去問模型說，有沒有哪些Future是我們漏掉的
+[Speaker_04] 這是後面，一開始就可以這樣子做啊
+[Speaker_06] 一開始做出來的東西
+[Speaker_04] 那時候做出來不是沒什麼
+[Speaker_01] 看不出來，因為如果一開始就，所有的Future都下去的話
+[Unknown] 大部分的演算法會因為，矩陣過於稀疏
+[Speaker_01] 也就是說你很多Future裡面全部都是零，那它就會把真正有用的Future都洗掉，所以在，用樣本甚至最少都只有3的情況下，不到10個，我們這樣Train會，Train不起來，但是當我們樣本，每一個類別有時機
+[Speaker_06] 那你還不如拿
+[Unknown] 5張
+[Speaker_06] 我們已經解過的，我就知道就是這個東西的，就直接用這個去Train就好
+[Unknown] 可以啊
+[Speaker_06] 你現在的講法是說你用比較少的Future去Train一個，然後把這個東西抓過來，再拿這個東西再去看全部，我只是
+[Speaker_03] 我這個過程只是為了讓你增加你那個，最後可以拿去問模型的那個，有用的資料的數量而已，所以這整個Pipeline整個Worldflow，就是讓你增加，Accumulate High Quality，然後Machine Learning Useful的Data
+[Speaker_01] 可以讓你回去做更多Train，首先資料庫和Training是不一樣的，資料庫要儲存就是，盡可能所有的資料，不管它你現在覺得它有沒有用，有沒有可能，雖然那個可能是也是被我留下來，對，那但是為什麼我們這邊必須，刪減才是因為現在樣本少，然後我們資料庫一定是要，精檢過後才去訓練，我們才可以訓練出一個有用的模型，對，那這之中，怎麼去資料庫先，我們會有先，就像我們有Pretrain嘛，我們先看一下我們Train完第一波以後，資料庫裡面哪些欄位，我們挑了100多個是最有用的，這些Future是你們以前覺得沒有用，那我發現它有用，那我們第一波就挑出來，然後我們再用這一些，去進行機器學習
+[Unknown] 所以是不衝突的
+[Speaker_01] 就是和老師說，所有資料都要Training，這件事是不衝突的，但這不會是一開始要做的事情，就是資料量級啦，資料量級不同我們就可以用不同的處理方式，對啊 對
+[Speaker_03] 所以你如果有三筆的話，你三筆可以用我的方式跑，然後去跑沒看過的資料，那在裡面找一模一樣的東西
+[Speaker_01] 所以說如果你只有三筆，然後只有你的資料維度有1萬維，那它就會，它數學上就會非常的
+[Unknown] 所以我們整套
+[Speaker_03] 我就希望你從三筆變成三十筆，那你再回去跑剛剛你說的，你要找裡面有沒有漏掉的Diamount，OK它現在找得出來
+[Speaker_01] 對 因為當我們知道破證以後，我們可以把這個資料放進去，那我們隨時都可以，隨時都可以增加我們訓練的，的Future量級
+[Unknown] 不過如果後面到資料量夠大
+[Speaker_03] 然後那個矩陣很大的時候，那就確實需要把整個Project上，捐到超級電腦上，我說你們公司有，但是就不會是個人電腦上可以跑的
+[Speaker_01] 對對對 那也沒關係，對 反正你們也沒有要保密，不是嗎 我們甚至也可以接，保密應該是要的吧，不管你們要不要保密，這個我們都可以處理，對 所以就是
+[Speaker_03] 反正 對，我覺得老師你看得非常清楚，確實我這整理比較像是把，可以用的框架做出來，但是因為，中間還是有很多我們沒有克服的點，我們現在一個一個各個擊破了，那現在它終於可以開始累積資料，然後可以做你想做的事情，我覺得
+[Speaker_04] 這是一個創新吧，後面資料格是
+[Speaker_01] 老師可能覺得這個過程太engineer，而不是research
+[Speaker_03] 對 我覺得比較engineer，我原本想做research是整套做完之後，我可以再從那些MS圖，我再回去看 就是我知道糖是什麼了，然後再回去看那個，genomics的那個genetic expression，當然也可以啦 但是
+[Speaker_06] 這方面我就沒辦法幫你，你要從它的觀點，去描述你的plot，我還是講 你沒有define你的plot，所以如果說，就是我在講，我從外行人來講，我很簡單描述我的plot，我的plot就是要有夠的，對它適合去做training，然後eventually可以做Machine Learning，好，那我也identify說，那現在我不能做，因為這樣子，那你從，engineering也好，從informatics也好，從AI觀點也好，我講的這些plot，就是你要的define的plot，然後你是要去solve，這些plot
+[Unknown] 但我說的方法就是給你一整套
+[Speaker_03] supported workflow，可以讓你把，不能train變成可以train，就是這樣子而已
+[Speaker_06] 那你就要去mine這個東西，看人家接受不接受這個東西，是叫做有價值，你剛才講的才是叫做defineplot，就是簡單講，你講了這麼多，你只講到這一句而已，這才是核心的內訓，你現在這個時間點，你既沒有做Machine Learning，也沒有做什麼東西，你只是把這個過程，讓它可以去做這個東西，那這個過程裡面，因為原本有很多關卡，所以你的research，是要解決這些關卡，這些technical issue，然後做出來以後，就是讓人家可以去做這件東西，對
+[Speaker_04] 對，但是會希望大家，主要還是整套workflow，因為怎麼說
+[Speaker_03] 它的資料格式都是generic，又是text，就是你大家可以輕鬆的，把東西跟人家share，甚至是model train出來之後，例如說你train了一個model，就是專門看Primacy Etiquette，然後就反而positive all，那你假如說你訓練了這樣一個model，丟去給別人，人家也可以快速的，在同樣的條件下identify出所有的，曾經被那個模型學過的它，所以就變得很快的，你可以把這整套，就是把資料怎麼講，把資料標好，把MS2標成正確的它，把他直接從一個地方搬到另外一個地方，或者是有新學生來，你想要讓他看，先讓他標之後你給他看證件，那現在模型直接給你證件，你隨時可以調你要拿多少資料給他，就這樣，所以整件事情都是，我覺得就是很supportive而已，就是你要說novity，我覺得真的不太，novity只有在裡面解決問題的一些地方，也有一些小細節，可是那個東西
+[Speaker_01] 你能不能證明說，你用這套方法以後，在這套方法發現了，一些新的發現，發現就是我做的那個feature的事情
+[Speaker_02] 是啊，那我問一下
+[Speaker_03] 老師我跟你說，我們那個時候在train，就是用少量的資料在train model的時候，我們發現，我們發現假如，可是我覺得，假如我們選了一些，可能是feature的，就是比較接近theoretical的，那個BYCTI，選完之後丟進去，給模型跑，然後跑完之後我們發現
+[Unknown] 就是這些
+[Speaker_03] 機器學習的模型它傾向，它是分得出來你，那些，訊號peak跟intensity，裡面的，theoretical的，iron的重要性它是分得出來的，那它會根據你，那些theoretical的BYCTI，它的強度，它會就是怎麼講，假如我不把糖
+[Unknown] 就是假如我沒有放進
+[Speaker_03] 圖譜是告訴它說，這不是糖最簡單的糖是，麵糊的話，因為它裡面的Diagnostic Iron裡面，相對裡面的特徵資訊最少，那我們發現，如果你直接去拿那個模型去問，問它沒看過的data，它會把不是糖的資料也標成麵糊，那這整件事情，我看完之後我覺得它就是在描述說，其實這些Diagnostic Iron它本身，作為機器學習，的，機器學習的材料，是合適的，你雖然說你整個落檔就是你整個special丟進去，但是你只要，稍微就是像剛剛說什麼，那個Proteomics或什麼第一步，Gyphomix第一步，你有一個in silico的list，Gyphomix list，你光是那件事情就可以把，你的整張MS2，從沒用的資料變成可以trade的一些，可能有用的資料
+[Unknown] 嗯就這樣
+[Speaker_03] 這是我前幾天才發現的，因為我們把整個Wolfram，做好之後才開始試，然後試一次我就發現好像好像有搞錯，對，這是比較偏就是，關於長的資料到底是不是，tradeable的這件事情，那我現在我可以篤定的跟你說可以trade
+[Unknown] 對但是還是要處理
+[Speaker_03] 原始資料丟進去，模型會直接炸掉
+[Unknown] 我覺得可以啦
+[Speaker_06] 你要把你的Project Defined，這樣子
+[Unknown] 你要講說
+[Speaker_06] 嗯
+[Unknown] 我當然開宗明義當然是說
+[Speaker_06] 本來可能是一個問題，對肯定是問題，那現在大家，反正你不講大家也知道，就是大家都想要用AI，來幫助這件事情，然後你就開門見神就點出AI，要做這件事情，據中文就是有好的training set，對，那目前沒有好的training set，嗯，然後你要去分析目前在沒有這樣的狀況之下，我要怎麼，不是別人怎麼做，你想別人怎麼做，你要去描述說，Glycopos有什麼問題，GlycToken有什麼問題，GlycToken更糟
+[Unknown] 他們最近有在改善
+[Speaker_04] GlycToken，GlycPos這些有什麼問題
+[Speaker_06] 然後，Unitub，BB，那個也是給人家Deposit的，你要把這些問題，都Define出來
+[Unknown] 然後，那個Candy
+[Speaker_06] SugarCandy那個，他的Approach是什麼
+[Unknown] 你今年可能只有這個
+[Speaker_06] 可能明天還有別的，你要把各種，不同的人的做法
+[Unknown] 當一個
+[Speaker_06] Review的把它講完，好
+[Unknown] 可以
+[Speaker_06] 然後從那邊呢，你希望能夠彙整出一條路線來說
+[Unknown] At the end of the day
+[Speaker_06] 他們這些都不行
+[Unknown] 對
+[Speaker_06] 我們還是要有好的，Quality的Data，去做Training
+[Unknown] 但是以目前唐的架構
+[Speaker_06] 不管你是從Dataplay，還是從這個來，並不給你一個很Straight forward，可以做這件事情的方法，對，所以你的Reset就是要去解決這個問題，Intergrade
+[Speaker_03] Solve這個Complicated的
+[Speaker_04] 好
+[Unknown] 因為你
+[Speaker_06] 你要有這個東西，然後根據你的講法是說，這樣子大家才能夠把東西，放到這裡才可以給你Training
+[Unknown] 將來才可以有機會
+[Speaker_06] 做到這個東西
+[Unknown] 但是你要去
+[Speaker_06] 看的是，目前我所知道的，有Annotate的Meshback的Repository
+[Speaker_05] 就只有Vimika
+[Unknown] 那個
+[Speaker_04] 剛剛GoPost的有些人會PO，但是我覺得大部分看到是沒有，然後那個走的路線
+[Speaker_06] 是Native的，就是All Blacken比較多，然後大部分，就是Reduce All Blacken，對，那個可以做到一定的程度，然後你的東西要有用的話，我覺得，因為對你們來講其實是一樣的，你不要限制在Permanent
+[Speaker_03] 我現在選項裡面有Permanent，但是可以加其他的，你不用加太多
+[Speaker_06] 加太多也沒什麼用
+[Unknown] 只要有一個Reduce Native，就夠了
+[Speaker_06] Reduce Native OK，因為Eventually我覺得，大家還是會跑LC
+[Speaker_04] 肯定我也覺得會這樣，那你跑LC你一定要Reduce
+[Speaker_06] 我不太相信加Tag的，而且加Tag你弄不完
+[Unknown] 因為每一個人
+[Speaker_06] 都可以有不同的Tag
+[Unknown] 我如果讓他們可以自己
+[Speaker_04] Key Tag的Meshback，還會影響Fragmentation
+[Speaker_06] 那就不行，對，所以那個不好搞，但是你至少有一個Permanent，因為那個Principle，是一樣的做法是一樣的，數字不一樣
+[Speaker_04] 數字不一樣，老師數字我可以再問
+[Speaker_03] 我可以再跟實驗室裡面的其他人討論嗎，有些我真的Native，我真的不太熟，Native我們也沒什麼好
+[Speaker_06] 看一看把那個數字
+[Unknown] 看一看抄一抄就行了，好，好
+[Speaker_04] 沒有問題
+[Speaker_06] 然後你就要從，他的角度去描述這個問題
+[Unknown] 你引進什麼東西
+[Speaker_06] 是新的，引進什麼東西，什麼做法是新的，我們怎麼嘗試用
+[Unknown] 就是從Technic的觀點，從那個Computation的觀點，引的是
+[Speaker_06] 你的心不代表說是，跟這個世界沒有存在過的，是彈的領域沒有人用過的
+[Speaker_03] 就像是Dimension的Reduction，就是不再說任何一件事情
+[Unknown] 對
+[Speaker_03] 從你的角度來說是一件新的東西，但從Gaikou YRG的角度，從老師的角度來說
+[Speaker_01] 這在這講過了，Gaikou裡面其他人用了什麼技術，但是我們新用了什麼，細心學的技術
+[Speaker_03] 其他人都沒有用過
+[Speaker_06] 所以我不叫，這個不叫做批評，但是你基本上，你總是要去分析，現在缺什麼東西，現在做不到什麼東西，你只要不是，惡意的去攻擊人家，是OK的，你就是客觀的講，所有的軟體基本，即便是最厲害的Tragedy PD，你還是可以跳毛病說，他怎麼樣他怎麼樣
+[Speaker_03] 總是可以的啊
+[Speaker_06] 你就是要能夠講出這些問題嘛，但是當然講出問題不夠嘛，你講出問題以後，你提供什麼Solution嘛，那這個才是你的Input啊，對
+[Unknown] 你不要小看這個
+[Speaker_06] 講這個問題，因為你這一關過不了的話，你拿去跟誰講，沒什麼啊，而且講了老半天，我聽不住你到底要解決什麼問題
+[Unknown] 你要先Define你的Problem啊
+[Speaker_06] 我們現在
+[Unknown] 因為這些都是我們在弄
+[Speaker_06] 我們現在Call for Proposal，我們都是叫人家回答三個問題，先回答三個問題，第一個問題是，What problem you are addressing
+[Unknown] 就是從Solve problem的觀點
+[Speaker_06] 先問第一個問題，那這個問題一定是要重要，因為不重要的
+[Unknown] 就沒有人要甩你了嘛
+[Speaker_06] 所以你要先把自己，立在不敗之地
+[Unknown] 就是不會你講了老半天
+[Speaker_06] 人家說你做這個幹嘛，所以你要講說，這個東西是重要的，好比說以Biology的觀點，比如說我要解決Cancer，沒有人會跟你Argue，Cancer不重要，但是Cancer問題很大嘛
+[Unknown] 你今天三五年
+[Speaker_06] 的Project不可能解決Cancer嘛，所以你是解決要Cure，Cancer的其中一環嘛，那你要把那一環，你要做的那一件事情，你要去講出來，然後有點像說我做了這個東西以後，我水龍頭開了以後，接下來就可以什麼什麼什麼，我Eventually是要什麼什麼什麼，但是我現在做的是這個東西，這個就好比你的Specific Aim
+[Unknown] 這是第一個問題
+[Speaker_06] What specific problem you want to address，which is important，第二個問題是說，全世界不是，你在想而已
+[Unknown] 如果你的問題是重要的
+[Speaker_06] 就只有你在做嗎，就只有你想要做嗎，當然不會嘛，所以我們問的第二個問題是
+[Unknown] What's your innovation，你總是要有一個切入點
+[Speaker_06] 是你覺得，別人沒有在做的方法嗎
+[Unknown] 因為這個問題是重要的，每一個人都要做啊，那你跟人家什麼不一樣，因為
+[Speaker_06] 我從這個角度切入，這個人大家都可能知道，要解決這個大問題，但是他可能沒有想到這一環可以解決這個問題，那我要解決這一環，我的Innovation是什麼，你從Computation的觀點，你引進什麼Innovation
+[Unknown] 就解決這個問題
+[Speaker_06] 跟現在，市場上有的比起來
+[Unknown] 你引進了什麼東西
+[Speaker_06] 讓你覺得，你有一個Niche，你有一個切入點
+[Unknown] 然後第三個問題
+[Speaker_06] 就會比較是說
+[Unknown] 因為所有的Research都可能Work
+[Speaker_06] 可能不會Work，所以我們第三個問題是說，如果它Work
+[Unknown] 如果有Work
+[Speaker_06] What's your impact
+[Unknown] 有一些Research的部分是，你即便Work
+[Speaker_06] 都Nobody care的，你就不要做了
+[Unknown] 你做到最後
+[Speaker_06] 最怕的就是人家，Who cares so what，這句講下去就沒有辦法，所以你第一跟第三是相對應的，你要解決重要的問題，然後這個問題，如果你有解決的話
+[Unknown] 一定是很有Impact，但是你只有三五年
+[Speaker_06] 所以你不會說，在這三五年，我就解決奧斯哈曼，我就解決什麼什麼，但是要解決這個問題，我先要解決這個東西，或者是挑一條路到羅馬，但是不同的人走不同的路
+[Unknown] 你挑的這條路
+[Speaker_06] 你覺得人家還沒走過，我搞不好可以彎道超車，然後你把這個東西點出來
+[Unknown] 然後你把這個東西點出來
+[Speaker_06] 這就是你的切入點，你要做的東西
+[Unknown] 你一樣啊
+[Speaker_06] 你寫Paper的時候一樣要這樣子賣
+[Speaker_03] 所以我現在Paper那個，還沒有寫出八字一撇，因為沒有辦法把這些東西，整理好的話，寫出來的東西沒說服你
+[Unknown] OK，覺得現在
+[Speaker_03] 有的功能這些加一加，可以用這三個問題，全世界都在動這個腦筋啦
+[Speaker_06] 對，因為這是很Obvious的嘛
+[Unknown] 現在有哪一個東西
+[Speaker_06] 不想用AI來解決，這是很Obvious的嘛，差別只是在哪裡，誰做得到，誰有沒有什麼想法，那個基本的東西我都知道，我外國行人我都知道，我需要一個好的訓練器，可以解決問題，我也知道啊，我最後最好什麼都不用，叫AI幫我解決所有的問題，我也想要這樣啊
+[Unknown] 但是這不是你這樣子講
+[Speaker_06] 就會發生的嘛
+[Unknown] 那你要把它描述成
+[Speaker_06] 你要這樣子發生，你這裡還有這些這些這些啊
+[Unknown] 那顯然它沒有這樣子發生
+[Speaker_06] 就是這些這些有它的困難點嘛，嗯，不然的話大家這麼笨嗎
+[Speaker_03] 沒有大家肯定都這樣子啊，就沒有所以
+[Speaker_06] 所以你要能夠具體的描述出你的，問題在哪裡
+[Unknown] 然後這是你要去做的
+[Speaker_06] 你要去解決的
+[Unknown] 哦OK
+[Speaker_03] 那可以，我覺得我們現在的東西應該，嘗試過的東西應該夠，夠包成一個
+[Speaker_02] 你說跟其他相似的人比較，嗯
+[Speaker_03] 知道知道，我覺得我沒有，我沒有熟到可以把它寫成，那我再回去看一下
+[Speaker_00] 嗯
+[Speaker_03] 對我再回去看一下其他的那個，detail的東西吧，然後看一下Unicarp，看一下我這邊還有什麼需要補上，Unicarp現在它只是給人家
+[Speaker_06] repository而已，嗯但是我還是得看看，對但是你要看它，我自己是沒有去看，因為它不是可以給你reposit，annotated的spectrum
+[Unknown] 你要看它是用什麼格式
+[Speaker_03] 啊，等等我之前好像看過它有提供，todown
+[Unknown] PDF也有我記得，我之前好像在上面抓過
+[Speaker_03] PDF不是一個，就是標好的spectrum啊，MS2標好的上面什麼什麼，PDF不是一個可以解析的格式
+[Speaker_02] 啊不然你要PNG
+[Speaker_03] 它就是就是
+[Unknown] 就是figure了
+[Speaker_02] 它就是得是數字，啊你現在
+[Speaker_06] 可以這樣做一張一張，你可以丟上去它也可以幫你annotate
+[Unknown] 嗯一張一張可以
+[Speaker_06] 對啊，那我剛剛要講的是說，它現在是有collect這些東西
+[Unknown] 據我了解
+[Speaker_06] 它現在並沒有一個，code and code，AI的軟體可以幫你做這件事情，那我想我們這套可以在，但是不代表它沒有在做喔
+[Speaker_04] 那我要小心囉，快點快點對，因為我們現在AI的部分
+[Speaker_03] 老實說就是，那一整個idea，AI是廣義啦AI包括Machine Learning
+[Speaker_06] Deep Learning什麼什麼全部，因為我們
+[Speaker_03] 我們現在想說的那些idea那些core concept，其實老實說套到任何地方，他們只要對他們的data做了一樣的事情，那他們很快就可以把整套全能，弄起來就可以發揮可能，對所以這也是我現在很擔心，就是我們兩個，作為作業老師外面跟人家，每天在那邊說我們做這個好厲害喔，然後人家可能兩個月就炒走了，因為人家一個cooker我們兩個人，對
+[Unknown] 對，因為已經發現
+[Speaker_03] 已經發現可以trainer，那就肯定沒有問題了
+[Unknown] 嗯，所以回到三個問題的話
+[Speaker_03] 我覺得那應該第一個問題就是，大家沒有辦法產生出好的，然後可以拿來做，Machine Learning的data center，那我們的解決方法就是讓你從現有的
+[Unknown] 把你現有的資料用我們的
+[Speaker_03] Wallflow去提升
+[Speaker_06] 我個人是覺得以Glycon來講的話，不太可能靠Public的，Repository
+[Unknown] 嗯
+[Speaker_06] 因為有一堆爛東西
+[Unknown] 對
+[Speaker_03] 我現在我們這整套，就是我propose的是，因為我們讓你可以在自己的，環境
+[Speaker_06] 因為它不像Alpha 4，Alpha 4它用的PTP database，這些基本上都是reliable，對啊，所以可以馬上就去用這個東西去trade，對
+[Speaker_03] 所以像Glycon不行嘛，所以現階段我這邊給你們可以用的目標就是，實驗室collect，自己實驗室collect到多少data，你們自己確定它可以用，就可以直接trade model，那你們就已經有一個
+[Speaker_06] 沒有你還有一個問題，我實驗室collect到data我怎麼知道哪一些可以用，哈哈哈需要一個，我不是會放一次，大家都可以的
+[Unknown] 這套是有問題
+[Speaker_03] 我已經suppose
+[Speaker_04] 我已經suppose是Glycon的level，想要把data送出來想要跑
+[Speaker_06] 對啊你要更廣義一點啊
+[Unknown] 那其他人說
+[Speaker_00] 現在一堆非專家
+[Speaker_06] 也可以acquireacquire permission data，那他們的問題就是
+[Unknown] acquire以後他們沒有辦法
+[Speaker_06] 真正去處理，然後搞出來說，哪一個是有用哪一個是沒用，那就亂寫配備了，但是acquiredata不是問題啊，那老公想問
+[Speaker_04] 現在的世界datacollection
+[Speaker_06] 一點都不是問題啊
+[Unknown] 是dataanalysis
+[Speaker_06] interpretation才是問題啊，那好那假設我現在
+[Speaker_03] 讓你實驗室你自己搞出一個，你自己的概括實驗室你搞出，你穿了一個模型你非常相信它是對的，然後它裡面包含很多，沒有你要做到的就是剛才講的
+[Speaker_06] 假設你今天有兩個都可以吃，我會把它做到這樣子啊，那我不需要是專家，我只要我這個實驗室，我去follow人家的protocol，然後去跑出一個BGC的，native的dataset，我就要能夠從這個dataset裡面，丟到你的問題裡面挑出有用的東西，這樣進入database
+[Speaker_03] basically上來說是，但是現在這件事情，最根本的問題是還沒有一個好的，trained model，這就是你要解決的啊
+[Speaker_04] 我現在要解決的就是給你們，就是給你們這一整套
+[Speaker_03] 當database變trained大之後，那就有一個安賴的
+[Speaker_06] 你不能，假設這樣子講，假設我的手頭上有一萬筆，我已經可以挑出五十筆是好的，我就不需要你了啊，但你只要挑
+[Speaker_03] 可能五筆或十筆給我，我就可以幫你找出
+[Speaker_06] 所以你要讓我做的事情是，我這一萬筆丟到，你的那個東西裡面你幫我挑出，哪一些是可以用的，然後再從那些可以用的，就是這個training
+[Unknown] 就是我user端，我根本不需要做那些
+[Speaker_06] 我user端我只要acquire那一萬筆給你，這個真的好難
+[Unknown] 很難嗎
+[Speaker_01] 沒有老師的意思是沒有level
+[Speaker_03] 他也能夠找出來哪些是改革，那就我要我們一開始去年寫，最後寫到最後沒有成功的啊，我寫不出來啊
+[Unknown] 前提是他看過啊，他只要看過就可以了
+[Speaker_03] 那現在他沒看過啊，沒有一個phototype的model可以，你如果回到我剛剛Pick的概念
+[Unknown] 我一樣啊
+[Speaker_06] 我第一個step是，從MS2開始，不是從MS1開始，不是從MS2開始啊，MS2一樣我有一萬筆，我先filter嘛，我怎麼filter，我的argument是他至少要有兩三個，有用的diagnostic ion
+[Speaker_03] 那時候隨便裝只要一組，diagnostic ion大於兩個，那他就可能是改革的special
+[Speaker_06] 因為兩個原因，一個是，基本上如果他是彈的，植物圖有用的彈的植物圖，他總是要有，幾根ion是我認得，如果，如果他是彈的植物圖，然後裡面沒有半個我認得的，反正我也沒有辦法解，你也沒辦法用，所以老師這部分，那好假設是這樣子的話，那你要的就是很簡單而已啊，我給你一萬筆你第一步你就幫我filter出來，有用的東西啊，對可是我如果用conversation
+[Speaker_03] 然後我filter用那個，fragmentation rng filter，那這樣最後做出來那就是改變的手機一模一樣，那我弄這個就是唯一，我可以做出來但是他不是新的東西
+[Speaker_06] 啊對啊那不然呢
+[Speaker_03] 對然後做完之後呢那接下來呢，就是我有辦法讓你做這個，但我整套流程下來，你要賣的是你filter出來以後
+[Speaker_06] 怎麼變成可以train的dataset啊，然後拿去train呢，應該是filter出來之後
+[Speaker_04] 沒有，任何一個就是沒有人
+[Speaker_03] 先把資料都整理好的情況下，不可能有模型直接就告訴你，他是這個糖所以最後還是需要人去介入，你一定不管怎麼樣，不一定是要我可能是一個group，他們先介入之後那現在有一個，可能general的model之後，那你接下來大部分時候你都可以直接，先問他
+[Unknown] 對啊，那我現在
+[Speaker_03] 在這邊能做的事情就只是把整套模型，出來給你然後跟你說照著這樣做，這樣做這樣做這樣做好你一定可以成功，一定可以成功，就這樣我個人覺得
+[Speaker_06] 你的value會比較大是，如果其實，我在想，Gyp的時候我整個，concept我已經想好了，所以還有什麼，我只是沒有去做完而已
+[Speaker_03] 所以還有什麼
+[Speaker_06] 你現在好你用過，Gyp對，你filter完了以後你做什麼，filter完之後
+[Unknown] 你是做Gyp本身嗎
+[Speaker_04] 它接下來不是fit composition，然後
+[Unknown] fit composition
+[Speaker_03] 對呀
+[Unknown] fit composition以後你做什麼，fit composition以後接下來
+[Speaker_03] 不就是我去看了嗎
+[Unknown] fit composition以後理論上
+[Speaker_06] Alist Blist Clist，我去看Alist，理論上你有MS1的資訊，你有它出來的時間，你有它，MS2裡面有哪一些Diagnostic Ion，有哪一些Diagnostic Ion，這些都已經爛位囉，對啊，然後接下來你做什麼，你就是打開來看抽一個東西嗎，對啊，你要做的就是幫人家抽那個東西
+[Unknown] 現在是我人工去抽這個東西
+[Speaker_06] 現在是我人工去抽這個東西
+[Speaker_03] 對但老師我意思是，現在我們已經做到，就是你，你先抽你這個糖，你先抽個兩三張抽三十張，接下來繼續圓磨頂，它之後都可以幫你抽出來，它是不可能從無中生有啦
+[Speaker_04] 可以啊為什麼不能，你去抽啊
+[Unknown] 你要不要先定義一下
+[Speaker_06] 沒有那麼難啊
+[Speaker_04] 可是我不知道，我跟你講
+[Speaker_06] 你manually去做也就是這樣，你抽不到的就是抽不到，因為我看進化時間跟你講，因為你就是缺那些Ion，所以我抽得出來的東西，跟人家不一樣的是，所有的糖的東西都要能夠包容，ambiguity
+[Unknown] 對
+[Speaker_06] 它跟peptide sequence不一樣，peptide sequence的ultimate aim就是那條sequence，因為糖你一定要，能夠包容那個ambiguity
+[Unknown] 所以這個
+[Speaker_06] 有這個可能性，然後這個是不可能的，這個這個這個裡面可能，你記得我們怎麼做，我看到這個Ion，它是限制在什麼限制在composition，限制在它是endlight，所以我現在這個的時候，如果我有看到這個它應該是這樣，我就畫出這樣子，但是如果我又看到另一個Ion，跟這個東西不能同時存在，我就要evolt第二個isomer
+[Unknown] 我有看到第三個
+[Speaker_06] 我就evolt第三個isomer
+[Unknown] 這個
+[Speaker_06] 沒有很難
+[Unknown] 你有辦法做到這樣子
+[Speaker_06] 才是叫厲害
+[Unknown] 你能不能解釋一下，就是我一開始
+[Speaker_06] 就是你把你的manual，做的那個經驗傳承，變成方程式來做就好，我一開始寫在跟你講背包問題的時候
+[Speaker_03] 我不是嘗試用composition之後，我去嘗試告訴你，你的composition底下會有哪些可能的fragment Ion，那你再從那個fragment Ion，去找你現在這張，可能是該可能的special，它裡面就例如說它有10個Ion，它裡面有3個，然後另外一個，可能的isomer，可能只有最剩1個或2個Ion，那這個時候你會說，它同時有第一個ranking最高，第一個是這個structure，第二個是那個structure，就我一開始跟你講那個
+[Speaker_01] 不需要composition它可以硬幹出來的，所以你們想要一個non-supervised的方法
+[Speaker_02] 對，就是我一開始寫的那個
+[Speaker_03] 那個是non-supervised，可是我寫到最後它一直有bug
+[Unknown] 它找不好
+[Speaker_03] 然後如果我現在，去年前年的時候那時候有在寫一個，在做這些事情，但是寫到最後，我覺得它好像沒有辦法順利的標出，例如說它應該告訴我5個structure，它最後只告訴我2個
+[Unknown] 它就當掉了
+[Speaker_03] 對 那個是non-supervised，我只要輸整張補足給它，然後它就自己給我算了
+[Speaker_02] 那non-supervised，要可以辨識到非常稀有的東西嗎，那要看你設定什麼
+[Speaker_03] 例如說你，你放了一個include一個稀有的它，我們在算的時候就要把它加進去，就這樣
+[Unknown] 然後那個糖會有什麼碎片
+[Speaker_03] 你要是夠了那個糖，會有碎片你也要把它碎片加進去
+[Speaker_02] 首先你們能supervised，然後你們知道量有不夠，但是老師的意思是
+[Speaker_03] 那個Raw是fixed的，它是固定的，你會有哪些糖在那邊，然後它composition是什麼，你是可以先知道或是你可以先設定，所以後面就是數學的
+[Speaker_01] 我看我口尾的文章，他自己他號稱他解決那件事情，我看不懂他的文章，他自己他號稱他解決那件事情，我不是演算法小白我看不懂
+[Speaker_04] 你跟我講的我還是看不懂
+[Speaker_06] 你看嘛 你現在，假設這個是糖，你有三個不同的東西，然後你就會有pick，對不對 那理論上在LCMSA，每一根你都拿去做MS2，但是如果你不做MS2，其實你只有這個composition而已，四個hacks，五個hacks，一個pickles
+[Unknown] 如果只有做MS1
+[Speaker_01] 就只有這樣子而已，那你從這樣子
+[Speaker_06] 我一定會先扣掉這個，因為我告訴你這是angle icon，所以，比如說以這個來講，我就只剩下這個，然後我把這兩個把它湊成這樣子，然後我剩下這個跟剩下這個，然後我剩下這個跟剩下這個，OK 好，那你今天有好幾個level，我所謂的說你的最後的答案裡面，你要包容ambiguity是這樣的意思，請問ambiguity是，就是
+[Unknown] 不確定性
+[Speaker_06] 就是這樣說
+[Speaker_03] 他同時你需要有一個，合適可以同時包含的
+[Speaker_06] 假設今天我沒有MS2
+[Unknown] 那你要能夠從這裡
+[Speaker_06] 幫我assign到這樣子就夠了
+[Unknown] 嗯哼，對不對 就很
+[Speaker_06] 很簡單啊
+[Speaker_01] 對啊
+[Speaker_06] 因為從直補的觀點，我只知道這個composition，那是因為我告訴你說這是angle icon，所以你把這個，然後我告訴你說把其他的這個湊成like that
+[Speaker_03] 他有一些pickles，他已經告訴你他是這個樣子，你是有界定條件可以，angle icon就一定會有這個，你知道這個以後
+[Speaker_06] 你現在要解決的是
+[Unknown] 你是要擺成這樣呢
+[Speaker_06] 還是要擺成那樣，那你就看有沒有這個Iron，有沒有這個Iron，假設只有這個Iron，只有這個Iron，沒有這兩個那你就是這樣子，假設有這個，又有同時又有這個，因為這兩個不能同時存在，你就告訴人家說這裡面兩個都有，就這樣而已，因為你的圖在怎麼看，你的斷片能夠告訴你的，也就只有這樣而已，對
+[Speaker_03] 你回答你先坐下來 沒有老師，去年那個時候我
+[Unknown] 還沒有去
+[Speaker_03] 去沖繩之前，那時候我就有用，那時候我就有試著用運算的方式，就是他是這樣子做的，他就是現在是算composition，然後去fit那個嘛，fit他的那個fx1指向有對了，那有對了之後接下來，我嘗試先告訴他說你可以ersign他哪一些，他會有哪一些不同的abitur，我會上去，那哪些abitur可以上在哪些地方，然後我先知道說，可能可以拼成這樣之後，我就知道他有哪些fragment iron，然後就找這個fragment iron，他整個set有對了，那我就說他應該有這個結構，我那時候有寫這個演算法，反正就是到最後他沒有，他還是有問題
+[Speaker_06] 所以我現在沒有拿來問你，但是這個東西是存在，因為我的想法是說，你就是從alice那邊做起，alice那邊已經幫你fitcomposition，對這個fit我已經做完了，問題是後面的ersign跟
+[Speaker_03] 對上那個，對上那個，iron，那個iron到底要幾顆，兩個三個還是要可以讓大家自己決定，就是你說你可以覺得ersign，他是這個structure，例如說有10個diagnostic iron，他應該要有幾個50%，要5個才能算，可以成立這個結構還是只要有一個就行
+[Unknown] 沒有你如果有一個638
+[Speaker_06] 我就會有一個luis x，對就一定會有一個嘛
+[Speaker_03] ok啊
+[Unknown] 好啊
+[Speaker_03] 但是，你比如說你今天你這個結構
+[Speaker_06] 你第一個跟第二個不能並存嗎，第一個跟第二個
+[Speaker_03] 跟第三個也不能並存嗎
+[Speaker_04] 對啊，那如果你有看到sara luis x
+[Speaker_06] 段片，你同時有看到luis x，段片假如我同時都看到這三個那怎麼辦
+[Speaker_03] 三個都放出來
+[Speaker_06] 所以我就說你要能夠包含ambiguity，那應該ok啦
+[Speaker_03] 因為
+[Speaker_06] 彈的本質就是，你本來就不會只有一個結構啊，那好，然後你這樣看下去，你告訴我你哪一個iron可以幫你判斷，你就是只有這些而已啊，對就這些而已
+[Speaker_03] 這已經做完了，所以應該要把這個當賣點
+[Speaker_06] 你至少把，一個composition，大家都可以，畫這個東西
+[Unknown] 假設我今天只告訴你composition
+[Speaker_06] 你可不可以畫出這三個，可能性，可以嗎，對吧，甚至有四個可能性五個可能性whatever，那你要的其實只是，讓電腦based on你的diagnostic，iron把你，可以想到的可能性 narrow down，到那些哪一些是有，supported by ms2，哪一些是因為沒有看到，supported by ms2而排除掉，就這樣子而已
+[Unknown] 那這不就是
+[Speaker_03] 老子你期待完整版的，該pick的東西，對啊
+[Unknown] 就這樣而已啊
+[Speaker_06] 那如果這個部分要再跟技學結合
+[Speaker_03] 那當然我們該pick那邊
+[Speaker_06] 我們還有ms3，但是不是所有的人都有做ms3，那ms3是幫你區分，比如說是louis x還是，louis a啦那些東西啦，但是你可以不用做到那樣子啊，你一個簡單的，我如果今天我不做這件事，我只能夠畫出的，就是這三個可能性，但是我不知道哪一個可能性，是對的啊，然後你要告訴我進一步的是說，從有限的，這個有acquired到的ms2，的data裡面，裡面有iron可以support，structure1跟structure3，但是沒有iron可以supportstructure2，所以我排除掉2
+[Unknown] 可不可以
+[Speaker_03] 只告訴他們有1跟3，那所有的直譜data都是這樣啊，你只告訴人家你id到的東西啊
+[Speaker_06] OK啊，就是你可以有data support的東西而已啊，就是你可以有data support的東西而已啊，那個時候我說出這個問題是
+[Speaker_03] 最後他出來，我要如何讓他同時show出來，他天都不住他會爆掉，我覺得是文字處理的問題
+[Unknown] 因為也算懷本身應該是對的，我們現在討論
+[Speaker_01] 東西差很多耶，差很多
+[Speaker_03] 然後最基礎的，就是機器學習之前的事情
+[Unknown] 那老師你覺得
+[Speaker_03] 因為這部分我覺得可能還有一些問題要解決，但理論上框架我們是有，我們不能保證他完全100%work，那怎麼辦寫論文的時候要放進去嗎
+[Unknown] 因為我們確實有做這個東西
+[Speaker_03] 但是做到一半就，就give up
+[Unknown] 對
+[Speaker_03] 怎麼看嘛我想看田地老師的意見
+[Speaker_06] 我是覺得如果你，有走，glyphic的路線，然後你也用那些東西去塞掉，一些東西然後也把它灌入，你要train的database裡面，嗯，然後剛才的爭議一點，就是你10000筆，可以幫我filter掉，剩比如說100筆
+[Speaker_03] 10000筆filter完當然剩100筆啊差不多
+[Speaker_06] 然後100筆進去，然後你現在你的要求是說，除了這100筆進去以後，你還要在做糖的專家裡面，從這100筆裡面告訴你，只有10筆可以用，然後拿這10筆去做train
+[Speaker_02] 等一下等一下，這兩次完全不一樣的問題，假設演算法就可以解決這件事情，那我們為什麼還要做無心人類
+[Unknown] 對那時候他就問我這個問題
+[Speaker_03] 我就放棄這個
+[Unknown] 我被他問倒
+[Speaker_01] 為什麼啊演算法在這個問題上還有，哪裡解決不了，有
+[Speaker_06] 我跟你講今天，我可以告訴你說這邊有3筆，是你說這3個對不對，對但是可能下一次，同一個MS1，他可能只有2筆
+[Unknown] 你說同一個樣本
+[Speaker_01] 不同樣本，對或者是
+[Speaker_06] 同一個來源但是，在有病沒病的時候，某一個isomer會變多變少，好，那你這邊我只是回答，他的第一個問題而已就是，我會覺得說，你要能夠做到讓，不是糖專家的實驗室，他當他generate出1萬筆的時候，你不要告訴他說，你要是糖的專家，最後給我10筆我才可以用
+[Speaker_03] 現在架構是這樣，你需要糖的專家給正確的資料，我們才能夠幫你自動化流程，但是前面最開始我想做的是，讓不是糖的也能做，但是就是寫一寫的時候發現好像不太對勁，我handle不來
+[Speaker_06] 所以你先從1萬筆 narrow到100筆
+[Unknown] 100筆了以後
+[Speaker_06] 你有初步的判斷
+[Unknown] 嗯
+[Speaker_06] 那同一個entry比如說這個，你所謂的同一個entry就是質量，嗯，最好是質量加retention time，但是LC有點tricky，因為不同的LC不同點，可能會移啦，不然的話那個會比較好，因為兩個coordinate，先姑且不要retention time，這一個東西你今天，這一組人給你的，100筆裡面有兩個entry，可能有三個entry，他可能給你的有兩個entry，三個entry，每一個都有初步的判斷，然後你拿這個初步的assignment，拿去training，因為training要做的事情，就是要幫我們去看人腦，看不到的東西
+[Unknown] 人腦看到的東西
+[Speaker_06] 的確你不需要做training，就這樣子就結束了啦
+[Speaker_03] 其實是你直接讓他幫你找，然後找心血，可是我要怎麼找
+[Unknown] 我的模型沒有看過的東西
+[Speaker_01] 分類就好了
+[Speaker_06] 你告訴他說，這一個spectrum裡面，含有這三根，然後這一個spectrum裡面，只有兩根，這一個spectrum裡面
+[Unknown] 只有一根那一根
+[Speaker_06] 但是這些都是，同一個質量產生出來的，但是問題就是前面
+[Speaker_03] 你不需要機械學習這方式，你光是用規則，你就可以每一次看樣本，都可以得出不一樣的結果，只要他有那三個，那他三個就會都會輸出出來，那如果他那次只有兩個
+[Speaker_06] 他就只會出兩個出來，那或許他會幫你看出一個端倪來
+[Speaker_03] 我不知道啊AI就是這樣子，現在我們做到的只有後面，他可以幫你看出來
+[Speaker_06] 但前面那個你要告訴他是什麼，那這樣子的話你即使不走到最後，因為你最後training還有一個里程碑，反正現在是前面沒走完
+[Speaker_03] 那怎麼辦
+[Speaker_01] 假設我們前面演算法，算了一個模糊性，但至少
+[Speaker_03] 因為如果老師要說A-list的水準，我現在的code就可以做到，但是問題是需要告訴你，這些Iron的碎片，推到它是什麼結構的，那個東西我把它寫壞了
+[Unknown] 它現在是不work的
+[Speaker_01] 我承認我的知識不足
+[Speaker_03] 那個部分你沒辦法幫我，我只能告訴你怎麼做但是你寫的時候，我提供一個solution
+[Speaker_01] 為什麼，我們的演算法不完美，但是我們可以大量內螺當對不對
+[Unknown] 對啊我就是在用
+[Speaker_01] Nested loop在做內螺當
+[Speaker_03] 然後去一個一個剔除掉，那只要條件不符合，那它就不是這個
+[Speaker_01] 我們演算法只做一件事，就是把絕對不可能的東西丟掉，然後剩下的東西我們使用自動分群法
+[Unknown] 而且你還要想說
+[Speaker_03] 可是它那些碎片什麼都是固定的
+[Speaker_06] 你今天你看A-list的時候，我叫你做個主題，同一個質量的entry
+[Unknown] 你記得它有做很多MS2
+[Speaker_06] 對啊很多啦
+[Speaker_04] 不同時間點的MS2
+[Speaker_06] 然後理論上，這個可以empirically，去determine啦，within，幾秒鐘裡面的你把它當作是同樣的結構，如果比較遠的就不同的結構，可以啊你那個時間例如說
+[Speaker_03] 它現在可能20到21分鐘，那A-list裡面你最麻煩的是什麼事情
+[Speaker_06] 你要去挑出，哪一些是force positive的東西，你要把它刪掉
+[Speaker_03] 我要先看它的MS2 hit到，如果像什麼可能只有hit到260，然後訊號很低
+[Speaker_06] 那即便是同一張，我們說有三個的，它也有很多個，很多張不是一張而已，那這一個就像你講的，這一個我都把它classify as，我可以，人工看出的時候，它可能含有三個結構的，這個我把它classify的時候，可能只有兩個結構的，這個classify是只有一個結構的，然後都有時間點的correlation，你這些就拿去training啊
+[Unknown] 你要train的東西
+[Speaker_06] 我已經講過，你要train的東西，是我現在看不出來的東西
+[Speaker_02] 如果沒有label，我們train出來的結果就是，沒有label，不是的意思就是
+[Speaker_03] 就是你自己講，剛才給你看的時候
+[Speaker_06] 分群，一樣的道理啊
+[Unknown] 就是前面那個分群
+[Speaker_03] 你有一些MS2的資訊，你是可以把它印湊出來的，問題是印湊出來的東西，我沒有寫好，你印湊出來之後，它可以告訴你這三個，例如說ABC，你現在30分的時候有A，30到32分的時候變成AC，那老實的意思是，如果這樣子你每一個時間點，每一個突破都有告訴你，這個時間點它有什麼，那你是不是就可以變成說，你30到32分你可以畫一個A
+[Speaker_06] 因為這個跟你要做的沒有衝突，沒有衝突但是我現在感受到，我現在做不完，就是說你做完這個初步了以後，假設你今天你的講法，本來就是要Glyco的expert，幫你去解除這張圖
+[Unknown] 那我從哪裡開始
+[Speaker_06] 當然就是從你已經分好的那邊，我再進一步去看啊
+[Unknown] 那這樣就會變成明年畢業了
+[Speaker_03] 沒把握了，這個
+[Unknown] 對不對不然的話你的東西
+[Speaker_06] 因為你如果做完第一步，其實是有價值的，因為我的argument是，在沒有Machine Learning，看出什麼端倪之前，你人工可以解的就這樣，那現在我本來就可以解的，只是比較麻煩而已，我只是讓你們不麻煩而已
+[Speaker_03] 你要說真的
+[Speaker_06] 那我這樣子我就可以很快的，告訴你說有這個這個，然後這些是有supported by這個IM，這個有supported by這個IM
+[Unknown] 所以我可以講這樣這樣
+[Speaker_03] 那如果整套都做起來的話，那就不需要其他
+[Speaker_06] 然後你同時也達到你的目標，因為這是叫做可以用的spectrum，你要放進你的存進你的，將來要拿來training的那個，database裡面
+[Unknown] 對那
+[Speaker_04] 就會變成我可以集中在
+[Speaker_03] 例如說網路上有一個portal，然後裡面有一個database，然後我就用那個database訓練，我就更新我的model，那你以後甚至東西丟網路上，我就可以幫你跑
+[Speaker_06] 這是ultimize the goal，然後你同一筆同一個MS1，你可能就累積很多張不同的來自全世界各地
+[Unknown] 對
+[Speaker_06] 你可以去train啊，但是我希望，跟你做的東西沒有衝突，你還是要各個擊破啊，假設今天是來自lab A，你還是要叫lab A，從這個群裡面幫你去解除十張，對我現在就是，從lab B你也叫lab B，要幫你解除十張，如果有人幫你做這些，你這些info再import進去，你的database裡面呢，就讓他更好啊
+[Speaker_04] 我現在是希望這樣，但是我不可能直接跟你說你A給我B給我，所以現在能做的事情就是，我給你這個你A你可以自己去弄B可以自己去弄，好你們弄完之後
+[Speaker_03] 你們跟我說你們資料變多了，你們從10筆變成100筆，好那你們全部丟到網路上，丟到一個公開的repository，然後丟上去之後這些東西都是validated，那它就是有效的資料，那我們再trade
+[Unknown] 但是這樣就是需要專家
+[Speaker_06] 而且一定要專家不能出錯，沒有你現在不需要做這件事啊，你現在要做的是convince人家，說你的架構是可以給人家做這件事，我沒有叫你現在就掛在網路上，沒有啦但是我說
+[Speaker_04] 我可以告訴人家說我的架構可以讓你這樣做，對啊，有這已經有了現在就是這樣，只是前面那個就沒有，該pick的前面那個幫你fit composition
+[Speaker_03] fit完之後告訴你可能是什麼那個就沒有，那個還沒有，就差那個部分就完整而已
+[Speaker_04] 那怎麼辦
+[Speaker_06] 你如果，我覺得你至少要把，composition跟一些可能性的東西，放進去，還是要負責任把它做出來，不然的話你很fake啊，你每一個時間是你，你今天你給我，那我最後就像剛剛我用的那個數字架，我產生出一萬筆，我必須自己去挑十筆
+[Unknown] 我才可以放進去，那因為我是
+[Speaker_03] 我是假設一般大家contest，例如說，我這邊誰收到一個sample，我會看個幾張吧，那你看個幾張記下來就有啦
+[Speaker_01] 我是這樣想，我以資料庫的角度去看，反而不在乎你這個東西，是不是垃圾是不是有用，我寧願存下，所有的東西，而且你幫我存喔
+[Speaker_06] 我即使是同一個實驗室，我可能，一個學生他只看十張，但是我要把，相關的一百張都存下來啊
+[Unknown] 我
+[Speaker_04] 我給他他幫我
+[Speaker_03] 那個學生看了十張之後，他先隨便在他電腦上跑一個，用我們的模型跑完之後那，就可以找到剩下的同樣的，同樣的類型不同樣的裡面，那你第一步就可以把同樣的類型
+[Speaker_06] 全部撈出來啦
+[Speaker_04] 可以啊但是就是差在他沒辦法
+[Speaker_03] 先告訴你那十張，那十張現在你要學生去標，啊如果把該pick的最一開始那個，我覺得你的邏輯
+[Speaker_06] 你今天，好你今天當學生好了，你跑了一萬筆你要挑哪十張去看
+[Unknown] random挑十張去看嗎
+[Speaker_06] 沒有
+[Speaker_03] 因為他說你今天看這個塔，沒有啊你需要第一步把
+[Speaker_06] 一些東西排除filter，然後你就喔我在記中，我來看這個東西啊
+[Unknown] 我只是覺得
+[Speaker_03] filter的東西大家自己，一開始練習，操作的時候我們是就會點的嘛
+[Unknown] 製作的話真的有這麼重要嗎
+[Speaker_04] 就是大家都會拿excalibur在那邊點嘛，點完之後喔我知道那個，是多少瞭然後點完之後，這就是人工判斷跟
+[Unknown] 你要用machine learning不一樣的地方啊
+[Speaker_06] 人工都是主觀的，都是有bias的
+[Unknown] 對所以我現在很少是理論
+[Speaker_03] 那些有bias的東西但是，看完之後expert覺得ok那好，所以我覺得我跟你的爭議沒有
+[Speaker_06] 差別太多你只是，不同觀點而已我的觀點是，先把一確可以
+[Unknown] composition可以fit的先把它，從一萬筆裡面撈五百筆
+[Speaker_06] 出來然後，再從五百筆裡面我去幫你，看十張然後告訴你，這五百筆裡面那十張是我有看過的，但是我四百九十張，我還是存在那邊，而不是一開始從一萬筆裡面，你要教人家不知道用什麼方法，去看的十張要給你這十張，然後剩下的呢丟掉嗎，好我明白了老師
+[Speaker_04] 但是現在這樣子假如我的
+[Speaker_03] 那個前面fit composition可以幫你，過濾出一百張可是我沒有辦法，明確的跟你說就是我可以告訴，他有哪些iron但是就像改變一樣，我沒有辦法明確告訴你說，他就是什麼東西可以嗎，這樣子行嗎如果只說，這樣的話你最起碼你有
+[Speaker_06] composition嘛有composition一定有，我可以直接說ok啊composition啊，所以最好的情況，你本來就存在啦你的欄位，本來就存在你的欄位本來就有，MS1的數字，你有retention time的數字，你有你的diagnostic iron的數字，都在那邊了啊
+[Speaker_03] 所以如果我能夠，讓你轉完之後，你再按照我的at list，然後去從，然後你可以下一個指令啊
+[Speaker_06] 你可以說至少要有，兩個diagnostic iron的我才接受，還是至少要有五個diagnostic iron的，還是只要有一個就好了，所以讓他們可以挑
+[Speaker_03] 你可以決定啊
+[Speaker_06] 因為最後是你要來training啊，可能覺得我要一個是說，至少要有五個，那我就可以build掉一些出來
+[Unknown] 好，好所以
+[Speaker_03] 那你filter出來
+[Speaker_06] 我現在只是覺得是說，你要如果你的東西，稍微有點加持作用
+[Unknown] 那你幫人家畫出這個東西
+[Speaker_06] 是有用的沒有的話，也無所謂，沒有的話你其實就是等於是，我把，這一個composition的，一百張全部撈出來，然後在這一百張裡面，你已經filter掉囉，因為，這一百張裡面至少要，要有每一張至少要有，一個或兩個diagnostic iron
+[Unknown] 對，所以你可以去看
+[Speaker_03] 然後看完之後，然後你如果不要再做下一步
+[Speaker_06] 你就是把這個資料，保留著而已啊
+[Speaker_03] 對保留著，那我意思是那如果我只讓他保留，然後給他們現在他們再去看，然後一百筆之後，他們可能看了十張
+[Speaker_06] 那十張是可以告訴你說，這是good quality的給你去做，那這樣行嗎，但是我並沒有把其他東西丟掉啊，還是放在那邊，那我的意思是說，那你今天你這十張，如果真的有去trend出來，你再拿這十張去看這四百九十張
+[Speaker_03] 我是直接拿十張回去看所有，但是確實老實說對，這個會好一點
+[Speaker_06] 而且你這些都有filter啦，那我現在只是覺得是說，當然你可能有時間上的問題，但是這個concept上沒有那麼難，是很好的
+[Speaker_03] 因為這樣才是整套完整的workflow
+[Speaker_06] 你可以把它大概narrow到到是，可能是什麼樣是三個結構的，還是兩個結構還是一個結構的，然後你也可以把它當作一個test set，你trend出來以後你的test set嘛
+[Speaker_03] 確實，就是這樣，就是老實的意思是，我前面那個也算反，我不需要明確的告訴你說這個什麼，它有一些水平你有找到，就是最開始你那個simulaties，就是我不是用找到幾個
+[Unknown] 去當分數嗎
+[Speaker_03] 然後就是就會過濾出一個比較小的subset的list，它可能從兩萬筆變成兩百筆，然後裡面有好幾個composition，對那老師的意思是，我做了一整套solution，結果我沒有提供一個workflow，讓你先從兩萬筆變成看兩百筆，現在的問題不就是因為大家要研究
+[Speaker_01] 現在的問題不就是因為大家要研究，那你有辦法
+[Speaker_02] 那就變成，對可是這樣就變成他們的不同的環境下
+[Speaker_03] 他們那些IR什麼的，我必須要把規則寫進去
+[Unknown] 不同的
+[Speaker_03] 譬如說你有沒有privacy，那些的那個max不一樣，那我要把這些事情考慮進去，所以那時候我寫到最後有點昏頭，然後就寫不出來，因為那些數字是我要自己加上去，規則是我要自己加上去
+[Unknown] 然後再來是你
+[Speaker_02] narrow down以後可以，沒有narrow down的時候就輸出一張類似的
+[Speaker_03] 就是比較小張類似的，它裡面就是可能，就是那個已經可能是糖的那一張
+[Speaker_02] 如果你narrow down完還有一千筆的話，那這樣有意義嗎
+[Speaker_03] 但至少不是兩萬筆啊，就是我至少嘗試有讓你，減少你要看的，spectrum的量
+[Unknown] 而且因為我們會嘗試
+[Speaker_03] fetal motion，所以你大概至少知道它大概是什麼糖，那老師的意思是，我們才會是比較好的
+[Unknown] 我可以明白
+[Speaker_03] 因為我絕對沒有做這一點，會比較好啊，因為現在的意思有點像是，我後面的東西受到很多做法，但你前面的東西你要自己弄
+[Unknown] 慢慢的都交給我
+[Speaker_03] 不太友善
+[Unknown] 對嘛老師是這個意思嘛
+[Speaker_03] 對啊
+[Unknown] 那我剛剛原本想要跟老師
+[Speaker_03] 啊覺得是我前面到底需不需要，做到好到，也算把那個fetal motion到底需不需要好到，能夠直接告訴你它就是這一顆，那如果不需要的話，請他們自己看的話，我再改一下繩子碼就行，因為我們已經有那個東西
+[Unknown] 對啊那老師就這樣
+[Speaker_03] 反正我之後再把那個東西加進去，至少做到該Pick的等級，讓大家看的時候能夠，少看幾張，那可能最後留個一兩百張，然後他們開完之後再拿那個，我唯一擔心的就是你的規則
+[Speaker_02] 規則寫拉的就寫拉的
+[Speaker_03] 東西就是Field出一坨垃圾，你的規則
+[Speaker_02] 排除掉了有可能的東西，你必須保留所有，就是你，你的那個
+[Unknown] 原始代還在
+[Speaker_02] Force negative，必須是零，你的Force negative必須是零
+[Speaker_01] 一開始傳出來的那張
+[Speaker_03] Force negative，Force positive
+[Unknown] 你的規則判斷的Force negative
+[Speaker_01] 必須是零
+[Unknown] 對必須是零
+[Speaker_03] 不然就會漏東西
+[Speaker_01] 但是Force negative是零的情況下，那你等於幾乎沒有塞掉什麼東西
+[Speaker_02] 那這樣對於人類真的有幫助嗎
+[Unknown] 這是哲學問題嗎
+[Speaker_01] 這不是哲學問題
+[Speaker_02] 這是當你一萬筆然後你寫一個Force negative，等於零的過濾器以後，它過濾完的時候你簽筆那這樣對你滿有幫助的，就是濾掉五千筆絕對不可能
+[Speaker_03] 絕對不可能，對濾掉五千絕對不可能，老師你覺得這件事情本身，就是有價值的對嗎
+[Unknown] 我原本要看一萬筆
+[Speaker_03] 然後我現在用這些規則告訴你，有五千筆絕對不是它，那你只要再看五千筆，有用對嗎
+[Speaker_02] 那就OK
+[Speaker_03] 因為我原本一開始寫的時候，我的目標就是用，你的Force negative不會是零啊
+[Unknown] 因為
+[Speaker_06] 你有一個狀況就是，是這根筆沒有做，但是它拿去做MS2的時候，做不好，做不好導致沒有辦法，產生你要的Ion，那就沒辦法，你可以把它，argue是Force negative，但是那個Force negative你留下來也沒有，對
+[Speaker_01] 老師應該也知道我Force negative，要盡量減少的意思是說，對阿
+[Speaker_06] 但是如果你完全做不好，完全沒有半個Ion的話
+[Speaker_01] 你也沒有用啊，我只是希望未來，它有更多可能的Future保留，那這樣我們的資料庫，學習才會有意義，Future保留我們原始代也還留著
+[Speaker_06] 這個就是回應你，你要所有東西保留，你不要一開始就叫人家
+[Unknown] 只給你十筆嘛
+[Speaker_01] 基本上我們當然是希望，對啊你也有做法，對阿，因為我會這個樣子
+[Speaker_03] 等一下
+[Unknown] 我還是走了，好，Anyway
+[Speaker_06] 我會覺得你最好就是，回到剛才講的
+[Unknown] 你一開始
+[Speaker_06] 你要先Define your problem，讓人家，了解你的Problem，你要Solve the problem
+[Unknown] 那這一個是最重要的，你接下來細節要怎麼做都OK
+[Speaker_06] 那等一下他來喔，你一開始你沒有辦法講出，讓人家覺得這個是，真的是一個Problem，真的是要解決的一個Problem，然後你有你的獨特的想法，你有你獨特有你的Approach，那最後做出來，是跨一小步還是跨一大步，我覺得那個是其次，因為那個你有時間的限制，你有什麼什麼的壓力，但是你一開始你沒辦法說服人家，我不知道你講的老半天，你到底要做什麼
+[Unknown] 好啦也是啦
+[Speaker_03] 等一下為什麼我投影片沒有，沒有，我現在要讓人家存成這個樣子，我現在要問的是，我們實驗室裡面有沒有哪些人，可以給我測，我想辦法讓他們去玩玩看
+[Speaker_06] 我可以跟誰要，我可以跟誰要，這個是我今天最重要的事情，大概一兩個小時後就可以
+[Speaker_04] 那你回來我們再
+[Speaker_03] 討論一下，我們兩個就討論
+[Unknown] 先把通訊機關掉
+[Speaker_03] 好
+[Unknown] 那你的手機嘛
+[Speaker_03] 你先暫停吧
