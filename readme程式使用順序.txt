@@ -1,0 +1,10 @@
+先用會議通轉出逐字稿有時間戳記的版本
+然後用shorten_transcript.py 刪除時間戳記和整合發言人
+接著可以使用crystal_G3.py做結晶法 
+或是去做文章分段
+文章分段可以選用Alg_topic_split.py 數學方法不到一秒 
+或是topic_spliterG3v2.py 用ai分段 約2萬字/200sec
+分段檔案會在inputfile位置產生chuck資料夾資料夾裡面會有數十數百個段落檔.md
+接著使用chucks_summary.py 去輸入chuck資料夾的檔案路徑（目前路徑寫死在程式中） （以上兩種分段方法都可以輸入）
+跑出來的資料會在chuck資料夾裡面為csv檔
+接著用step1_embed_summary.py去讀取這個ＣＳＶ

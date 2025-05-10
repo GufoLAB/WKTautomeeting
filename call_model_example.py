@@ -1,4 +1,4 @@
-ㄍㄍ
+
 
 def dialogue_summary(messages, summary_token_length=1000):
     summary_prompt = [
