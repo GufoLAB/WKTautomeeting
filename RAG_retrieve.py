@@ -1,5 +1,5 @@
 #python RAG_retreive.py /home/henry/automeeting/民族學街訪/逐字稿_修正版.txt
-
+#python RAG_retreive.py /home/henry/automeeting/2025Feb_NSTM_meet/shorten_topicsv2/chunks_summariesv3.jsonl
 import sys
 import os
 import faiss
