@@ -1,5 +1,17 @@
-#python RAG_retreive.py /home/henry/automeeting/民族學街訪/逐字稿_修正版.txt
-#python RAG_retreive.py /home/henry/automeeting/2025Feb_NSTM_meet/shorten_topicsv2/chunks_summariesv3.jsonl
+#python RAG_retrieve.py /home/henry/automeeting/民族學街訪/逐字稿_修正版.txt
+#python RAG_retrieve.py /home/henry/automeeting/2025Feb_NSTM_meet/shorten_topicsv2/chunks_summariesv3.jsonl
+"""正確做法：
+假設你是這樣建的：
+
+python RAG_Embedding.py /home/henry/automeeting/2025Feb_NSTM_meet/shorten_topicsv2/chunks_summariesv3.jsonl
+這會產生
+
+/home/henry/automeeting/2025Feb_NSTM_meet/shorten_topicsv2/rag_embed_chunks_summariesv3
+    ├── faiss.index
+    └── documents.txt
+查詢時要用 chunks_summariesv3.jsonl 作為參數：
+
+python RAG_retreive.py /home/henry/automeeting/2025Feb_NSTM_meet/shorten_topicsv2/chunks_summariesv3.jsonl"""
 import sys
 import os
 import faiss
