@@ -1,3 +1,14 @@
+【2025/09/08 更新 - 現在有完整自動化流程！】
+
+🚀 推薦使用方式：
+python integrated_main.py /path/to/shorten.txt  # 一鍵完整處理
+python integrated_main.py --test              # 測試現有資料
+
+📋 完整流程包含以下6個自動化步驟：
+1→2→3→4→5→6 自動執行，無需手動干預
+
+========== 原始手動流程（供參考） ==========
+
 1. 先用會議通轉出逐字稿有時間戳記的版本
 
 2. 然後用shorten_transcript.py 刪除時間戳記和整合發言人

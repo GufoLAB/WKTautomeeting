@@ -1,2 +1,27 @@
-
+# 环境配置
 .env
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# 日志
+data/info.log
+*.log
+step2_err.txt
+step2_out.txt
+
+# 会议数据目录（测试数据不需要上传）
+2025Feb_NSTM_meet/
+2025Feb_NSTM_meet_copy/
+會議BSS/
+會議_*/
+會議通*/
+民族學街訪/
+醣體學/
+transcripts/
+uploads/
+
+# IDE
+.vscode/
+.idea/

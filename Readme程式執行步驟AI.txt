@@ -1,3 +1,13 @@
+【更新說明：現在有完整自動化流程！】
+
+🆕 一鍵執行完整流程：
+python integrated_main.py /path/to/shorten.txt
+
+🆕 測試現有資料：
+python integrated_main.py --test
+
+========== 以下為詳細步驟說明 ==========
+
 1. 會議通轉出逐字稿（原始資料）
 用什麼：會議通App/平台
 

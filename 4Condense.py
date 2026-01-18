@@ -1,18 +1,4 @@
-#python Condense.py /home/henry/automeeting/2025Feb_NSTM_meet/shorten_topicsv2/chunks_summaries_brief_output/chunks_summaries_brief_reindexed.csv --cluster auto
-#!/usr/bin/env python3
-"""Condense.py
-
-1️⃣ 為每列 `summary` 產生 10–20 字中文主題（`topic`）
-2️⃣ *可選* 語意分群：先讓 LLM 思考分群，再以第二次呼叫格式化為 JSON
-
-> 原則：需要推理的任務先讓 LLM 自由組織，再要求 JSON 輸出
-
---------
-用法
-```
-python Condense.py <input_csv> [--output <out_csv>] [--cluster [N|auto]]
-```
-- `<input_csv>`   必含 `summary` 欄；若存在 `chunk_id` 欄會自動帶入。
+"""- `<input_csv>`   必含 `summary` 欄；若存在 `chunk_id` 欄會自動帶入。
 - `--output`      不給則預設為 `原檔名_condense_topics.csv`。
 - `--cluster N`   指定期望群數 (正整數)。
 - `--cluster auto` 讓 AI 決定群數 (預期 3–10 組)。
@@ -25,9 +11,10 @@ python Condense.py <input_csv> [--output <out_csv>] [--cluster [N|auto]]
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List, Tuple
-
+import time 
 import pandas as pd
 from tqdm import tqdm
 from dotenv import load_dotenv
@@ -37,7 +24,7 @@ import ollama
 from config import AI_MODEL, OLLAMA_URL
 
 load_dotenv()
-
+start_time = time.time()
 MAX_CHARS = 1600  # 最長上下文
 
 # ---------- AI 包裝 ----------
@@ -58,9 +45,7 @@ def ai_response(messages, max_tokens: int = 256) -> str:
 
 def _extract_json(text: str) -> str:
     """從 LLM 輸出抓出第一段 {...} JSON，移除 ```json 區塊。"""
-    # 去除 ```json ... ``` 或 ``` ... ```
     text = re.sub(r"```(?:json)?[\s\S]*?```", lambda m: m.group(0).strip('`'), text, flags=re.I)
-    # 抓第一段 { ... }
     match = re.search(r"\{[\s\S]*\}", text)
     return match.group(0) if match else text.strip()
 
@@ -82,17 +67,15 @@ def condense_topics(df: pd.DataFrame) -> pd.DataFrame:
             f"摘要：{context}\n\n主題："
         )
         topic = ai_response([{"role": "user", "content": prompt}]).replace("\n", "").replace(" ", "").strip()
-        # 若有 chunk_id 欄，用實際 id；否則用 DataFrame index+1
         chunk_id = df.loc[cid, "chunk_id"] if "chunk_id" in df.columns else cid + 1
         topics.append(f"[{chunk_id}]{topic[:20]}")
-        print(topics[-1])
+        print(topics[-1], file=sys.stderr)
     df["topic"] = pd.Series(topics, index=df.index)
     return df
 
 
 def _llm_cluster_request(topic_lines: List[str], group_hint: str) -> Tuple[str, str]:
     """兩階段：先自由分群，再回傳 JSON。"""
-    # 第一階段：自由分群
     sys1 = (
         "你將收到多行主題，每行格式為 '[id]主題'。請根據語意將它們分群，" + group_hint + "。\n"
         "格式示例：\n"
@@ -102,7 +85,6 @@ def _llm_cluster_request(topic_lines: List[str], group_hint: str) -> Tuple[str, 
         {"role": "user", "content": sys1 + "\n\n" + "\n".join(topic_lines)}
     ])
 
-    # 第二階段：轉 JSON
     json_prompt = (
         "請將以下分群結果轉成 JSON，key 為群名，value 為 id 數字列表：\n\n" + free_output + "\n\n只回傳 JSON。"
     )
@@ -122,7 +104,6 @@ def cluster_topics(df: pd.DataFrame, cluster_arg: str) -> Tuple[pd.DataFrame, Di
     except Exception as exc:
         raise ValueError(f"❌ 第二階段回傳非 JSON：\n{raw_json}") from exc
 
-    # id → cluster 名
     id2cluster = {int(idx): name for name, lst in mapping.items() for idx in lst}
     df["cluster_name"] = df["topic"].apply(lambda t: id2cluster.get(int(re.match(r"\[(\d+)\]", t).group(1)), ""))
     return df, mapping
@@ -133,7 +114,7 @@ def parse_args():
     p = argparse.ArgumentParser(description="Condense summaries & optional clustering")
     p.add_argument("input", help="input CSV path with 'summary'")
     p.add_argument("--output", help="output CSV path")
-    p.add_argument("--cluster", help="'auto' 或整數群數", default=None)
+    p.add_argument("--cluster", help="'auto' 或整數群數", default="auto")
     return p.parse_args()
 
 
@@ -145,6 +126,15 @@ def main():
     out_path = Path(args.output) if args.output else in_path.with_stem(in_path.stem + "_condense_topics")
 
     df = pd.read_csv(in_path)
+    print("資料形狀:", df.shape, file=sys.stderr)
+    print("\n欄位名稱:", df.columns.tolist(), file=sys.stderr)
+    print("\n前幾筆資料:", file=sys.stderr)
+    print(df.head(), file=sys.stderr)
+    print("第04項內容（repr() 會顯示換行符）:", file=sys.stderr)
+    print(repr(df.iloc[3]['summary']), file=sys.stderr)
+    print("\n第05項內容:", file=sys.stderr)
+    print(repr(df.iloc[4]['summary']), file=sys.stderr)
+    
     df = condense_topics(df)
 
     cluster_map = None
@@ -152,15 +142,18 @@ def main():
         df, cluster_map = cluster_topics(df, args.cluster)
 
     df.to_csv(out_path, index=False)
-    print(f"✔ CSV saved → {out_path}")
+    print(f"✔ CSV saved → {out_path}", file=sys.stderr)
 
     if cluster_map:
         json_path = out_path.parent / f"{out_path.stem}_clusters.json"
         with open(json_path, "w", encoding="utf-8") as f:
             json.dump(cluster_map, f, ensure_ascii=False, indent=2)
-        print(f"✔ Cluster JSON saved → {json_path}")
+        print(f"✔ Cluster JSON saved → {json_path}", file=sys.stderr)
+
+    print(out_path)  # 僅此行輸出到 stdout，讓 main.py 擷取
 
 
 if __name__ == "__main__":
+    start_time = time.time()
     main()
-
+    print(time.time() - start_time, file=sys.stderr)

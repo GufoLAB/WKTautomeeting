@@ -5,6 +5,7 @@
 
 # python shorten_transcript.py tmp/meetlingo0.txt > tmp/meetlingo1.txt
 import re, sys
+import os
     
 def merge_consecutive_speech(transcript_lines, time_tag=False):
     merged_lines = []
@@ -60,7 +61,9 @@ if __name__ == "__main__":
     merged_lines = merge_consecutive_speech(lines)
     # merged_lines = DeepSeek_r1_70b_merge_speeches(lines)
     print("\n".join(merged_lines))
-
+    output_file=os.path.splitext(input_file)[0]+'_shorten.txt'
+    with open(output_file, 'w', encoding='utf-8') as fout:
+        fout.write("\n".join(merged_lines))
 
 # 範例使用
 transcript_example = """
